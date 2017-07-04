@@ -1,0 +1,363 @@
+<html>
+<head></head>
+<body>
+
+<!-- Bootstrap v3.0.3 -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<link href="https://s3.amazonaws.com/mturk-public/bs30/css/bootstrap.min.css" rel="stylesheet" />
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+<section class="container" id="Other" style="margin-bottom:15px; padding: 10px 10px; font-family: Verdana, Geneva, sans-serif; color:#333333; font-size:0.9em; font-size: medium;">
+<div class="row col-xs-12 col-md-12"><!-- Instructions -->
+<div class="panel panel-primary">
+<div class="panel-heading"><strong>Instructions</strong></div>
+
+<div class="panel-body">
+<p>You will read a sentence with a <strong>highlighted phrase</strong>. From the list below, select <strong>all meanings</strong> that can apply to the highlighted phrase, in the context of the sentence.</p>
+
+<p>If the right meaning is not in the list, select <strong>None of the above</strong>.</p>
+</div>
+</div>
+<!-- End Instructions --><!-- Content Body -->
+
+<section>
+
+<div class="panel panel-default">
+<div class="panel-heading">The sentence:</div>
+<div class="panel-body"><span class="sentence" id="sentence">Anarchism is a political philosophy that advocates self-governed societies based on voluntary institutions.</span></div>
+</div>
+
+<fieldset>
+<label>What are the phrase(s) that best describe the meaning of <span id="phrase_question">advocates</span> in the context of the sentence above?</label>
+
+<div class="checkbox" id="checkbox">
+</div>
+
+<div id="demo" class="collapse">
+Explain the meaning of <span id="phrase_question">advocates</span> in your own words:
+<textarea name='WhyNone' rows=3 cols=80></textarea>
+</div>
+
+<input id="phrase" name="phrase" type="hidden" value="advocates" />
+<input id="b" name="b" type="hidden" value="6" />
+<input id="e" name="e" type="hidden" value="7" />
+<input id="framelist" name="framelist" type="hidden" value="f:Communication,f:Attempt_suasion,Request,f:Text_creation,f:Speak_on_topic" />
+<input id="framedef" name="framedef" type="hidden" value="'A Communicator conveys a Message to an Addressee; the Topic and Medium of the communication also may be expressed.','The Speaker expresses through language his wish to get the Addressee to act. There is no implication that the Addressee forms an intention to act, let alone acts.','A Speaker asks an Addressee for something, or to carry out some action.','An Author creates a Text, either written, such as a letter, or spoken, such as a speech, that contains meaningful linguistic tokens, and may have a particular Addressee in mind.','A Speaker addresses an Audience on a particular Topic.'" />
+<input id="frameelem" name="frameelem" type="hidden" value="'Communicator,Message,Addressee,Topic,Medium','Speaker,Addressee','Speaker,Addressee','Author,Text,Addressee','Speaker,Audience,Topic'" />
+</fieldset>
+
+
+</section>
+<!-- End Content Body --></div>
+</section>
+<!-- close container -->
+<style type="text/css">fieldset {
+    padding: 10px;
+    background:#fbfbfb;
+    border-radius:5px;
+    margin-bottom:5px;
+    font-size: medium;
+}
+
+.checkbox label {
+  padding: 10px;
+}
+
+.sentence {
+  font-family: Garamond, Georgia, serif;
+  color: #0000A0;
+  font-size: large;
+  text-align:center;
+}
+
+.sentence span:hover{
+  background-color: gray;
+}
+
+.sentfieldset {
+  border: 1px solid gray; padding: 10px; margin: 0px; -webkit-border-radius: 5px; -moz-border-radius: 5px;
+  border-radius: 5px;
+  background:white;
+}
+
+.sentlegend {
+  text-align: left;
+  font-size: medium;
+}
+
+#phrase_question {
+  // text-transform: uppercase;
+  font-weight: bold;
+  color: darkred;
+  font-family: Garamond, Georgia, serif;
+  font-size: large;
+}
+</style>
+
+
+<script type="text/javascript">
+
+  (function($){function injector(t,splitter,klass,after){var a=t.text().split(splitter),inject='';if(a.length){$(a).each(function(i,item){inject+='<span class="'+klass+(i+1)+'">'+item+'</span>'+after});t.empty().append(inject)}}var methods={init:function(){return this.each(function(){injector($(this),'','char','')})},words:function(){return this.each(function(){injector($(this),' ','word',' ')})},lines:function(){return this.each(function(){var r="eefec303079ad17405c889e092e105b0";injector($(this).children("br").replaceWith(r).end(),r,'line','')})}};$.fn.lettering=function(method){if(method&&methods[method]){return methods[method].apply(this,[].slice.call(arguments,1))}else if(method==='letters'||!method){return methods.init.apply(this,[].slice.call(arguments,0))}$.error('Method '+method+' does not exist on jQuery.lettering');return this}})(jQuery);
+
+  var sentence = document.getElementById("sentence");
+  var b = parseInt(document.getElementById("b").getAttribute("value"));
+  var e = parseInt(document.getElementById("e").getAttribute("value"));
+  var framelist = document.getElementById("framelist");
+  var framelist_array = framelist.getAttribute("value").split("f\:").join("").split(",");
+  var framedef = document.getElementById("framedef");
+  var framedef_array = framedef.getAttribute("value").split("','");
+  framedef_array[0] = framedef_array[0].substring(1);
+  framedef_array[framedef_array.length - 1] = framedef_array[framedef_array.length - 1].slice(0, -1);
+  var frameelem = document.getElementById("frameelem");
+  var frameelem_array = frameelem.getAttribute("value").split("','");
+  frameelem_array[0] = frameelem_array[0].substring(1);
+  frameelem_array[frameelem_array.length - 1] = frameelem_array[frameelem_array.length - 1].slice(0, -1);
+  
+  for (var idx = 0; idx < framelist_array.length; idx++) {
+    var label = document.createElement("label");
+    
+    var input = document.createElement("input");
+    var input_name = document.createAttribute("name");
+    input_name.value = "FrameType";
+    input.setAttributeNode(input_name);
+    var type = document.createAttribute("type");
+    type.value = "checkbox";
+    input.setAttributeNode(type);
+    var val = document.createAttribute("value");
+    val.value = framelist_array[idx];
+    input.setAttributeNode(val);
+    var id = document.createAttribute("id");
+    id.value = framelist_array[idx];
+    input.setAttributeNode(id);
+    label.appendChild(input);
+    
+    var label_text = document.createTextNode(framedef_array[idx]);
+    label.appendChild(label_text);
+    
+    frame_elements = frameelem_array[idx].split(",");
+    var div = document.createElement("div");
+    var div_class = document.createAttribute("class");
+    div_class.value = "collapse";
+    div.setAttributeNode(div_class);
+    var div_id = document.createAttribute("id");
+    div_id.value = "role_labeling_" + idx;
+    div.setAttributeNode(div_id);
+    for (var jdx = 0; jdx < frame_elements.length; jdx++) {
+      var radio_div = document.createElement("div");
+      var radio_div_class = document.createAttribute("class");
+      radio_div_class.value = "radio";
+      radio_div.setAttributeNode(radio_div_class);
+      var radio_div_id = document.createAttribute("id");
+      radio_div_id.value = "radio_frame" + idx + "_role" + jdx;
+      radio_div.setAttributeNode(radio_div_id);
+      
+      var question = document.createTextNode("Is the " + frame_elements[jdx] + " expressed in the sentence?");
+      radio_div.appendChild(question);
+      radio_div.appendChild(document.createElement("BR"));
+      
+      var radio_label_yes = document.createElement("label");
+      var radio_input_yes = document.createElement("input");
+      var radio_input_yes_name = document.createAttribute("name");
+      radio_input_yes_name.value = "role_labeling_frame" + idx + "_role" + jdx;
+      radio_input_yes.setAttributeNode(radio_input_yes_name);
+      var radio_input_yes_type = document.createAttribute("type");
+      radio_input_yes_type.value = "radio";
+      radio_input_yes.setAttributeNode(radio_input_yes_type);
+      var radio_input_yes_val = document.createAttribute("value");
+      radio_input_yes_val.value = "Yes";
+      radio_input_yes.setAttributeNode(radio_input_yes_val);
+      var radio_input_yes_id = document.createAttribute("id");
+      radio_input_yes_id.value = "role_labeling_frame" + idx + "_role" + jdx + "_yes";
+      radio_input_yes.setAttributeNode(radio_input_yes_id);
+      var radio_label_yes_text = document.createTextNode("Yes.");
+      radio_label_yes.appendChild(radio_label_yes_text);
+        
+      var radio_label_yes_dt = document.createAttribute("data-toggle");
+      radio_label_yes_dt.value = "collapse";
+      radio_input_yes.setAttributeNode(radio_label_yes_dt);
+      var radio_label_yes_dtar = document.createAttribute("data-target");
+      radio_label_yes_dtar.value = "#highlight_frame" + idx + "_role" + jdx + ":not(.in)";
+      radio_input_yes.setAttributeNode(radio_label_yes_dtar);
+      
+      radio_label_yes.appendChild(radio_input_yes);
+      radio_div.appendChild(radio_label_yes);
+      
+      var highlight_div = document.createElement("div");
+      var highlight_div_class = document.createAttribute("class");
+      highlight_div_class.value = "collapse";
+      highlight_div.setAttributeNode(highlight_div_class);
+      var highlight_div_id = document.createAttribute("id");
+      highlight_div_id.value = "highlight_frame" + idx + "_role" + jdx;
+      highlight_div.setAttributeNode(highlight_div_id);
+      
+      var highlight_div_label = document.createElement("label");
+      var highlight_div_label_text = document.createTextNode("Highlight the words in the text that express the " + frame_elements[jdx] + ".");
+      highlight_div_label.appendChild(highlight_div_label_text);
+      highlight_div.appendChild(highlight_div_label);
+      
+      var highlight_div_input = document.createElement("input");
+      var highlight_div_input_name = document.createAttribute("name");
+      highlight_div_input_name.value = "highlight_text_frame" + idx + "_role" + jdx;
+      highlight_div_input.setAttributeNode(highlight_div_input_name);
+      var highlight_div_type = document.createAttribute("type");
+      highlight_div_type.value = "text";
+      highlight_div_input.setAttributeNode(highlight_div_type);
+      var highlight_div_id = document.createAttribute("id");
+      highlight_div_id.value = "highlight_text_frame" + idx + "_role" + jdx;
+      highlight_div_input.setAttributeNode(highlight_div_id);
+      var highlight_div_readonly = document.createAttribute("readonly");
+      highlight_div_input.setAttributeNode(highlight_div_readonly);
+      highlight_div.appendChild(highlight_div_input);
+      
+      radio_div.appendChild(highlight_div);
+      
+      radio_div.appendChild(document.createElement("BR"));
+      
+      var radio_label_no = document.createElement("label");
+      var radio_input_no = document.createElement("input");
+      var radio_input_no_name = document.createAttribute("name");
+      radio_input_no_name.value = "role_labeling_frame" + idx + "_role" + jdx;
+      radio_input_no.setAttributeNode(radio_input_no_name);
+      var radio_input_no_type = document.createAttribute("type");
+      radio_input_no_type.value = "radio";
+      radio_input_no.setAttributeNode(radio_input_no_type);
+      var radio_input_no_val = document.createAttribute("value");
+      radio_input_no_val.value = "no";
+      radio_input_no.setAttributeNode(radio_input_no_val);
+      var radio_input_no_id = document.createAttribute("id");
+      radio_input_no_id.value = "role_labeling_frame" + idx + "_role" + jdx + "_no";
+      radio_input_no.setAttributeNode(radio_input_no_id);
+      
+      
+        
+      var radio_label_no_dt = document.createAttribute("data-toggle");
+      radio_label_no_dt.value = "collapse";
+      radio_input_no.setAttributeNode(radio_label_no_dt);
+      var radio_label_no_dtar = document.createAttribute("data-target");
+      radio_label_no_dtar.value = "#highlight_frame" + idx + "_role" + jdx + ".in";
+      radio_input_no.setAttributeNode(radio_label_no_dtar);
+      
+      radio_label_no.appendChild(radio_input_no);
+      var radio_label_no_text = document.createTextNode("No.");
+      radio_label_no.appendChild(radio_label_no_text);
+      
+      radio_div.appendChild(radio_label_no);
+      radio_div.appendChild(document.createElement("BR"));
+      
+      div.appendChild(radio_div);
+    }
+        
+    var dt = document.createAttribute("data-toggle");
+    dt.value = "collapse";
+    label.setAttributeNode(dt);
+    var dtar = document.createAttribute("data-target");
+    dtar.value = "#role_labeling_" + idx;
+    label.setAttributeNode(dtar);
+    
+    document.getElementById("checkbox").appendChild(label);
+    document.getElementById("checkbox").appendChild(div);
+    
+    document.getElementById("checkbox").appendChild(document.createElement("BR"));
+    document.getElementById("checkbox").appendChild(document.createElement("BR"));
+  }
+  var label = document.createElement("label");
+  var input = document.createElement("input");
+  var input_name = document.createAttribute("name");
+  input_name.value = "FrameType";
+  input.setAttributeNode(input_name);
+  var type = document.createAttribute("type");
+  type.value = "checkbox";
+  input.setAttributeNode(type);
+  var val = document.createAttribute("value");
+  val.value = "None of the above.";
+  input.setAttributeNode(val);
+  var id = document.createAttribute("id");
+  id.value = "none";
+  input.setAttributeNode(id);
+  var dt = document.createAttribute("data-toggle");
+  dt.value = "collapse";
+  label.setAttributeNode(dt);
+  var dtar = document.createAttribute("data-target");
+  dtar.value = "#demo";
+  label.setAttributeNode(dtar);
+  document.getElementById("checkbox").appendChild(label);
+  label.appendChild(input);
+  var label_text = document.createTextNode("None of the above.");
+  label.appendChild(label_text);
+  		
+  var select_frame = -1;
+	var select_role = -1;
+   
+   $(document).ready(function(){
+    //$(".collapse").collapse();
+		$("#sentence").lettering('words');
+		// give ids for each word (position in sentence)
+		var spans = $("#sentence").find("span").each(function() {
+			var idNumber = $(this).attr("class").slice(4);
+			$(this).attr("id", idNumber);
+		});
+		
+		for (var idx = b + 1; idx <= e; idx++) {
+		  //alert($(".word" + idx).text());
+		  //$(".word" + idx).css("text-transform", "uppercase");
+		  $(".word" + idx).css("font-weight", "bold");
+		  $(".word" + idx).css("font-size", "large");
+		  $(".word" + idx).css("color", "darkred");
+		}
+		
+		$("#none").change(function() {
+		  if($(this).prop("checked")) {
+		    for (var idx = 0; idx < framelist_array.length; idx++) {
+		      $("#" + framelist_array[idx]).prop("checked", false);
+		      $("#role_labeling_" + idx).collapse("hide");
+		    }
+		    select_frame = -1;
+		    select_role = -1;
+		  }
+		});
+		for (var idx = 0; idx < framelist_array.length; idx++) {
+  		$("#" + framelist_array[idx]).change(function() {
+  		  if($(this).prop("checked")) {
+  		    $("#none").prop("checked", false);
+  		    $("#demo").collapse("hide");
+  		  }
+  		});
+		}
+		
+		for (var idx = 0; idx < framelist_array.length; idx++) {
+		  frame_elements = frameelem_array[idx].split(",");
+      for (var jdx = 0; jdx < frame_elements.length; jdx++) {
+        $("#role_labeling_frame" + idx + "_role" + jdx + "_yes").click(function() {
+          if($(this).prop("checked")) {
+            var id_arr = $(this).prop("id").split("_");
+            select_frame = parseInt(id_arr[2].substring(5));
+            select_role = parseInt(id_arr[3].substring(4));
+          }
+        });
+        $("#role_labeling_frame" + idx + "_role" + jdx + "_no").click(function() {
+          if($(this).prop("checked")) {
+            select_frame = -1;
+            select_role = -1;
+          }
+        });
+      }
+		}
+		
+		$(".sentence").click( function( event ) {
+		  if (isNaN(event.target.id) == false) {
+			  if(event.target.nodeName == "SPAN") {
+			    if (select_frame != -1 && select_role != -1) {
+			      $("#highlight_text_frame" + select_frame + "_role" + select_role).attr(
+			        "value",
+			        document.getElementById(parseInt(event.target.id)).innerHTML + " "
+			      );
+			    }
+			  }
+			}
+	  });
+	});
+  
+
+</script>
+
+<body>
+</html>
