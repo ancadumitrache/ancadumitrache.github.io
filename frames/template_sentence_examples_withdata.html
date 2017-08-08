@@ -103,7 +103,7 @@ button.accordion.active, button.accordion:hover {
     background-color: #ddd;
 }
 
-div.panel {
+div.panel.panel-collapse {
     padding: 0 18px;
     background-color: white;
     max-height: 0;
@@ -152,7 +152,7 @@ div.panel {
     label.appendChild(button);
     
     var ex_div = document.createElement("div");
-    ex_div.setAttribute("class", "panel");
+    ex_div.setAttribute("class", "panel panel-collapse");
     ex_div.innerHTML = frameex_array[idx];
     label.appendChild(ex_div);
     
