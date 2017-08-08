@@ -1,0 +1,266 @@
+<html>
+<head></head>
+<body>
+
+<!-- Bootstrap v3.0.3 -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<link href="https://s3.amazonaws.com/mturk-public/bs30/css/bootstrap.min.css" rel="stylesheet" />
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+<section class="container" id="Other" style="margin-bottom:15px; padding: 10px 10px; font-family: Verdana, Geneva, sans-serif; color:#333333; font-size:0.9em; font-size: medium;">
+<div class="row col-xs-12 col-md-12"><!-- Instructions -->
+<div class="panel panel-primary">
+<div class="panel-heading"><strong>Instructions</strong></div>
+
+<div class="panel-body">
+<p>You will read a sentence with a <strong>highlighted phrase</strong>. From the list below, select <strong>all meanings</strong> that can apply to the highlighted phrase, in the context of the sentence.</p>
+
+<p>If the right meaning is not in the list, select <strong>None of the above</strong>.</p>
+</div>
+</div>
+<!-- End Instructions --><!-- Content Body -->
+
+<section>
+
+<div class="panel panel-default">
+<div class="panel-heading">The sentence:</div>
+<div class="panel-body"><span class="sentence" id="sentence">Anarchism is a political philosophy that advocates self-governed societies based on voluntary institutions.</span></div>
+</div>
+
+<fieldset>
+<label>What are the possible meaning(s) of <span id="phrase_question">advocates</span> in the context of the sentence above? Check ALL that apply.</label>
+
+<div class="divider"></div>
+
+<div class="checkbox" id="checkbox">
+</div>
+
+<div id="demo" class="collapse">
+Explain the meaning of <span id="phrase_question">advocates</span> in your own words:
+<textarea name='WhyNone' rows=3 cols=80></textarea>
+</div>
+
+<input id="phrase" name="phrase" type="hidden" value="advocates" />
+<input id="b" name="b" type="hidden" value="6" />
+<input id="e" name="e" type="hidden" value="7" />
+<input id="framelist" name="framelist" type="hidden" value="f:Communication,f:Attempt_suasion,f:Request,f:Text_creation" />
+<input id="framedef" name="framedef" type="hidden" value="'A <em>Communicator</em> conveys a <em>Message</em> to an <em>Addressee</em>; the <em>Topic</em> and <em>Medium</em> of the communication also may be expressed.','The <em>Speaker</em> expresses through language his wish to get the <em>Addressee</em> to act. There is no implication that the <em>Addressee</em> forms an intention to act, let alone acts.','A <em>Speaker</em> asks an <em>Addressee</em> for something, or to carry out some action.','An <em>Author</em> creates a <em>Text</em>, either written, such as a letter, or spoken, such as a speech, that contains meaningful linguistic tokens, and may have a particular <em>Addressee</em> in mind.'" />
+<input id="frameex" name="frameex" type="hidden" value="'<p class='list-group-item'>It <span id='phrase_example'>says</span> a lot that he didn't come back.</p><p class='list-group-item'>Putting his arm around her protectively achieved nothing but <span id='phrase_example'>announcing</span> to their captors their vulnerability.</p><p class='list-group-item'>This painting really <span id='phrase_example'>speaks</span> to me.</p>','<p class='list-group-item'>Dennis Rodman <span id='phrase_example'>advises</span> moderation in all things.</p><p class='list-group-item'>Mr Smithers always <span id='phrase_example'>encourages</span> the employees to stay late and work harder.</p>','<p class='list-group-item'>I <span id='phrase_example'>begged</span> my parents to let me stay up late.</p><p class='list-group-item'>The customer <span id='phrase_example'>demanded</span> a refund.</p>','<p class='list-group-item'><span id='phrase_example'>Jot</span> any notes you need below the line in red pen only.</p><p class='list-group-item'>The brothers <span id='phrase_example'>said</span> not two words to each other.</p><p class='list-group-item'>I <span id='phrase_example'>penned</span> a letter concerning racism to Congress.</p>'" />
+</fieldset>
+
+
+</section>
+<!-- End Content Body --></div>
+</section>
+<!-- close container -->
+<style type="text/css">fieldset {
+    padding: 10px;
+    background:#fbfbfb;
+    border-radius:5px;
+    margin-bottom:5px;
+    font-size: medium;
+}
+
+.checkbox label {
+  padding: 10px;
+}
+
+.sentence {
+  font-family: Garamond, Georgia, serif;
+  color: #0000A0;
+  font-size: large;
+  text-align:center;
+}
+
+.sentfieldset {
+  border: 1px solid gray; padding: 10px; margin: 0px; -webkit-border-radius: 5px; -moz-border-radius: 5px;
+  border-radius: 5px;
+  background:white;
+}
+
+.sentlegend {
+  text-align: left;
+  font-size: medium;
+}
+
+#phrase_question {
+  font-weight: bold;
+  color: darkred;
+  font-family: Garamond, Georgia, serif;
+  font-size: large;
+}
+
+#phrase_example {
+  font-weight: bold;
+  color: darkred;
+  font-family: Garamond, Georgia, serif;
+}
+
+button.accordion {
+    
+    font-size: small;
+    transition: 0.4s;
+    margin-top:10px;
+}
+
+div.panel.panel-collapse {
+    padding: 0 18px;
+    background-color: white;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+}
+
+div.panel.panel-default.list-group {
+    font-size:small;
+    font-family: Garamond, Georgia, serif;
+    display: inline-block;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+    /*margin-bottom: 0;*/
+    border: none;
+    box-shadow: none;
+}
+
+.divider {
+  height: 1px;
+  width:100%;
+  display:block; /* for use on default inline elements like span */
+  margin: 9px 0;
+  overflow: hidden;
+  background-color: #e5e5e5;
+}
+
+</style>
+
+
+<script type="text/javascript">
+
+  (function($){function injector(t,splitter,klass,after){var a=t.text().split(splitter),inject='';if(a.length){$(a).each(function(i,item){inject+='<span class="'+klass+(i+1)+'">'+item+'</span>'+after});t.empty().append(inject)}}var methods={init:function(){return this.each(function(){injector($(this),'','char','')})},words:function(){return this.each(function(){injector($(this),' ','word',' ')})},lines:function(){return this.each(function(){var r="eefec303079ad17405c889e092e105b0";injector($(this).children("br").replaceWith(r).end(),r,'line','')})}};$.fn.lettering=function(method){if(method&&methods[method]){return methods[method].apply(this,[].slice.call(arguments,1))}else if(method==='letters'||!method){return methods.init.apply(this,[].slice.call(arguments,0))}$.error('Method '+method+' does not exist on jQuery.lettering');return this}})(jQuery);
+
+  var sentence = document.getElementById("sentence");
+  var b = parseInt(document.getElementById("b").getAttribute("value"));
+  var e = parseInt(document.getElementById("e").getAttribute("value"));
+  var framelist = document.getElementById("framelist");
+  var framelist_array = framelist.getAttribute("value").split("f\:").join("").split(",");
+  var framedef = document.getElementById("framedef");
+  var framedef_array = framedef.getAttribute("value").split("','");
+  framedef_array[0] = framedef_array[0].substring(1);
+  framedef_array[framedef_array.length - 1] = framedef_array[framedef_array.length - 1].slice(0, -1);
+  var frameex = document.getElementById("frameex");
+  var frameex_array = frameex.getAttribute("value").split("','");
+  frameex_array[0] = frameex_array[0].substring(1);
+  frameex_array[frameex_array.length - 1] = frameex_array[frameex_array.length - 1].slice(0, -1);
+  
+  for (var idx = 0; idx < framelist_array.length; idx++) {
+    framelist_array[idx] = framelist_array[idx].replace("_", " ");
+  
+    var label = document.createElement("label");
+    label.setAttribute("class", "form-check-label");
+    
+    var input = document.createElement("input");
+    input.setAttribute("name", "FrameType");
+    input.setAttribute("type", "checkbox");
+    input.setAttribute("value", framelist_array[idx]);
+    input.setAttribute("id", framelist_array[idx]);
+    label.appendChild(input);
+    
+    var label_text = document.createElement("span");
+    label_text.innerHTML = "<b>" + framelist_array[idx] + ":</b> " + framedef_array[idx] + "<br/>";
+    label.appendChild(label_text);
+    
+    var button = document.createElement("button");
+    button.setAttribute("class", "accordion btn btn-default");
+    button.innerHTML = "See examples where the highlighted word expresses <b>" + framelist_array[idx] + "</b>:";
+    label.appendChild(button);
+    
+    var ex_div = document.createElement("div");
+    ex_div.setAttribute("class", "panel panel-default list-group");
+    ex_div.innerHTML = frameex_array[idx];
+    //var ex_div_h = document.createElement("div");
+    //ex_div_h.setAttribute("class", "panel-heading");
+    //ex_div_h.innerHTML = "Other sentences where the highlighted word expresses <b>" + framelist_array[idx] + "</b>:";
+    //var ex_div_b = document.createElement("div");
+    //ex_div_b.setAttribute("class", "panel-body");
+    //ex_div_b.innerHTML = frameex_array[idx];
+    //ex_div.appendChild(ex_div_h);
+    //ex_div.appendChild(ex_div_b);
+    label.appendChild(document.createElement("BR"));
+    label.appendChild(ex_div);
+    
+    document.getElementById("checkbox").appendChild(label);
+//    document.getElementById("checkbox").appendChild(document.createElement("HR"));
+//    document.getElementById("checkbox").appendChild(document.createElement("BR"));
+    var divider = document.createElement("div");
+    divider.setAttribute("class", "divider");
+    document.getElementById("checkbox").appendChild(divider);
+  }
+  
+  var input = document.createElement("input");
+  input.setAttribute("name", "FrameType");
+  input.setAttribute("type", "checkbox");
+  input.setAttribute("value", "None of the above.");
+  input.setAttribute("id", "none");
+  
+  var label = document.createElement("label");
+  label.setAttribute("class", "form-check-label");
+  label.setAttribute("data-toggle", "collapse");
+  label.setAttribute("data-target", "#demo");
+  label.innerHTML = "None of the above.";
+  label.appendChild(input);
+  document.getElementById("checkbox").appendChild(label);
+  
+  var acc = document.getElementsByClassName("accordion");
+  for (var i = 0; i < acc.length; i++) {
+    acc[i].onclick = function() {
+      this.classList.toggle("active");
+      var panel = this.nextElementSibling.nextElementSibling;
+      if (panel.style.maxHeight){
+        panel.style.maxHeight = null;
+        $(this).html($(this).html().replace("Hide", "See"));
+      } else {
+        panel.style.maxHeight = panel.scrollHeight + "px";
+        $(this).html($(this).html().replace("See", "Hide"));
+      } 
+    }
+  }
+   
+   $(document).ready(function(){
+    //$(".collapse").collapse();
+		$("#sentence").lettering('words');
+		// give ids for each word (position in sentence)
+		var spans = $("#sentence").find("span").each(function() {
+			var idNumber = $(this).attr("class").slice(4);
+			$(this).attr("id", idNumber);
+		});
+		
+		for (var idx = b + 1; idx <= e; idx++) {
+		  //alert($(".word" + idx).text());
+		  //$(".word" + idx).css("text-transform", "uppercase");
+		  $(".word" + idx).css("font-weight", "bold");
+		  $(".word" + idx).css("font-size", "large");
+		  $(".word" + idx).css("color", "darkred");
+		}
+		
+		$("#none").change(function() {
+		  if($(this).prop("checked")) {
+		    for (var idx = 0; idx < framelist_array.length; idx++) {
+		      $("#" + framelist_array[idx]).prop("checked", false);
+		    }
+		  }
+		});
+		for (var idx = 0; idx < framelist_array.length; idx++) {
+  		$("#" + framelist_array[idx]).change(function() {
+  		  if($(this).prop("checked")) {
+  		    $("#none").prop("checked", false);
+  		    $(".collapse").collapse("hide");
+  		  }
+  		});
+		}
+	});
+  
+
+</script>
+
+<body>
+</html>
