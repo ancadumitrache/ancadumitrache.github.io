@@ -12,9 +12,9 @@
 <div class="panel-heading"><strong>Instructions</strong></div>
 
 <div class="panel-body">
-<p>You will read a sentence with a <strong>highlighted phrase</strong>. From the list below, select <strong>all meanings</strong> that can apply to the highlighted phrase, in the context of the sentence.</p>
+<p>You will read a sentence with a <span id="phrase_question">highlighted word</span>. From the list below, select all meanings that can apply to the highlighted phrase, in the context of the sentence.</p>
 
-<p>If the right meaning is not in the list, select <strong>None of the above</strong>.</p>
+<p>If the right meaning is not in the list, select ''None of the above''.</p>
 </div>
 </div>
 <!-- End Instructions --><!-- Content Body -->
@@ -171,7 +171,7 @@ div.panel.panel-default.list-group {
     
     var button = document.createElement("button");
     button.setAttribute("class", "accordion btn btn-default");
-    button.innerHTML = "See examples where the highlighted word expresses <b>" + framelist_array[idx] + "</b>:";
+    button.innerHTML = "Click to see examples where the highlighted word expresses <b>" + framelist_array[idx] + "</b>:";
     label.appendChild(button);
     
     var ex_div = document.createElement("div");
@@ -217,10 +217,10 @@ div.panel.panel-default.list-group {
       var panel = this.nextElementSibling.nextElementSibling;
       if (panel.style.maxHeight){
         panel.style.maxHeight = null;
-        $(this).html($(this).html().replace("Hide", "See"));
+        $(this).html($(this).html().replace("hide", "see"));
       } else {
         panel.style.maxHeight = panel.scrollHeight + "px";
-        $(this).html($(this).html().replace("See", "Hide"));
+        $(this).html($(this).html().replace("see", "hide"));
       } 
     }
   }
