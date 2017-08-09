@@ -12,9 +12,21 @@
 <div class="panel-heading"><strong>Instructions</strong></div>
 
 <div class="panel-body">
-<p>You will read a sentence with a <span id="phrase_question">highlighted word</span>. From the list below, select all meanings that can apply to the highlighted phrase, in the context of the sentence.</p>
+<p>You will read a sentence with a <b>highlighted word</b> (<em>Fig.1</em> below shows an example).</p>
 
-<p>If the right meaning is not in the list, select ''None of the above''.</p>
+<figure class="figure">
+ <figcaption class="figure-caption text-center"><b>Fig.1</b> Example Sentence</figcaption>
+ <img src="sentence.png" class="figure-img img-fluid center-block" width="80%" />
+</figure> 
+
+<p>From a given list, you are asked to <b>select all meanings that can apply</b> to the highlighted word, in the context of the sentence. <em>Fig.2</em> below shows one meaning in the list for <em>Fig.1</em>, together with examples of how this meaning can be used in a sentence.</p>
+
+<figure class="figure">
+ <figcaption class="figure-caption text-center"><b>Fig.2</b> Possible Meaning for the Highlighted Word in <em>Fig.1</em></figcaption>
+ <img src="meaning.png" class="figure-img img-fluid center-block" width="80%" />
+</figure>
+
+<p>If the right meaning for the word is not in the list, select ''None of the above''.</p>
 </div>
 </div>
 <!-- End Instructions --><!-- Content Body -->
@@ -58,6 +70,10 @@ Explain the meaning of <span id="phrase_question">advocates</span> in your own w
     border-radius:5px;
     margin-bottom:5px;
     font-size: medium;
+}
+
+.figure-caption {
+  font-size:small;
 }
 
 .checkbox label {
@@ -171,7 +187,7 @@ div.panel.panel-default.list-group {
     
     var button = document.createElement("button");
     button.setAttribute("class", "accordion btn btn-default");
-    button.innerHTML = "Click to see examples where the highlighted word expresses <b>" + framelist_array[idx] + "</b>:";
+    button.innerHTML = "Click to see examples where the highlighted word expresses <b>" + framelist_array[idx] + "</b>";
     label.appendChild(button);
     
     var ex_div = document.createElement("div");
