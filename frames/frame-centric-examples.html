@@ -1,0 +1,234 @@
+<html>
+<head></head>
+<body>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<link href="https://s3.amazonaws.com/mturk-public/bs30/css/bootstrap.min.css" rel="stylesheet" />
+<script src="https://use.fontawesome.com/4b6dfd67d9.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<section class="container" id="Other" style="margin-bottom:15px; padding: 10px 10px; font-family: Verdana, Geneva, sans-serif; color:#333333; font-size:0.9em; font-size: medium;">
+<div class="row col-xs-12 col-md-12"><!-- Instructions -->
+<div class="panel panel-primary">
+<div class="panel-heading"><strong>Instructions</strong></div>
+
+<div class="panel-body">
+<p>You will be given <strong>a definition</strong> that can apply to a word, or set of words that are similar in meaning. From the list below, select <strong>all words</strong> that can be explained with the definition, in the context of the given sentence.</p>
+
+<p>If none of the words in the list correspond to the definition, select <strong>None of the above</strong>.</p>
+</div>
+</div>
+<!-- End Instructions --><!-- Content Body -->
+
+<section>
+
+<div class="panel panel-default">
+<div class="panel-heading">The definition:</div>
+<div class="panel-body"><span class="definition" id="definition"><b class="frame">Cure:</b> This frame deals with a <em>Healer</em> treating and curing an <em>Affliction</em> (the injuries, disease, or pain) of the <em>Patient</em>, sometimes also mentioning the use of a particular <em>Treatment</em> or <em>Medication</em>.</span></div>
+</div>
+
+<div class="panel panel-default">
+<div class="panel-heading">Examples:</div>
+<div class="panel-body" id="example-panel"></div>
+</div>
+
+<fieldset>
+<label>Which of the following words can be explained by the definition of <b class="frame">Cure</b>? Take into account the context of the sentence.</label>
+
+<div class="checkbox" id="checkbox">
+</div>
+
+
+<input id="sentences" name="sentences" type="hidden" value="'In addition, many species regurgitate pellets, and fossil pellets that may have come from dinosaurs are known from as long ago as the Cretaceous period.','Columbus was host to the oldest continually operated bookstore in Indiana, Cummins Bookstore, which began operations in 1892 and closed in late 2007.','His eyesight later partly recovered.','Critics argued that Whorf's ideas were untestable and poorly formulated and that they were based on badly analyzed or misunderstood data.','The prize, administered by the Dylan Thomas Centre, is awarded at the annual Swansea Bay Film Festival.'" />
+<input id="phrases" name="phrases" type="hidden" value="regurgitate,operated,recovered,analyzed,administered" />
+<input id="b" name="b" type="hidden" value="4,7,4,17,2" />
+<input id="e" name="e" type="hidden" value="5,8,5,18,3" />
+<input id="examples" name="examples" type="hidden" value="'The shaman used herbs to <span id='phrase_question'>heal</span> the wound.','Both infants were heavily <span id='phrase_question'>medicated</span> to alleviate their seizures.'" />
+<input id="examplewords" name="examplewords" type="hidden" value="heal,medicated" />
+
+</fieldset>
+
+
+</section>
+<!-- End Content Body --></div>
+</section>
+<!-- close container -->
+<style type="text/css">fieldset {
+    padding: 10px;
+    background:#fbfbfb;
+    border-radius:5px;
+    margin-bottom:5px;
+    font-size: medium;
+}
+
+.checkbox label {
+  padding: 10px;
+}
+
+.definition {
+  font-family: Garamond, Georgia, serif;
+  color: #0000A0;
+  font-size: large;
+  text-align:center;
+}
+
+.sentfieldset {
+  border: 1px solid gray; padding: 10px; margin: 0px; -webkit-border-radius: 5px; -moz-border-radius: 5px;
+  border-radius: 5px;
+  background:white;
+}
+
+.sentlegend {
+  text-align: left;
+  font-size: medium;
+}
+
+.sentence{
+  font-family: Garamond, Georgia, serif;
+  /*margin-left:7px;
+  margin-top:7px;*/
+  font-style:italic;
+}
+
+.example-sentence{
+  font-family: Garamond, Georgia, serif;
+  /*margin-left:7px;
+  margin-top:7px;*/
+  font-style:italic;
+}
+
+#phrase_question {
+  // text-transform: uppercase;
+  font-weight: bold;
+  color: darkgreen;
+  font-family: Garamond, Georgia, serif;
+  font-size: medium;
+}
+
+#checkbox-sen{
+  padding: 15px;
+  margin-left: 10px;
+}
+
+b.frame {
+  font-family: Garamond, Georgia, serif;
+  color: darkblue;
+}
+
+</style>
+
+
+<script type="text/javascript">
+
+  (function($){function injector(t,splitter,klass,after){var a=t.text().split(splitter),inject='';if(a.length){$(a).each(function(i,item){inject+='<span class="'+klass+(i+1)+'">'+item+'</span>'+after});t.empty().append(inject)}}var methods={init:function(){return this.each(function(){injector($(this),'','char','')})},words:function(){return this.each(function(){injector($(this),' ','word',' ')})},lines:function(){return this.each(function(){var r="eefec303079ad17405c889e092e105b0";injector($(this).children("br").replaceWith(r).end(),r,'line','')})}};$.fn.lettering=function(method){if(method&&methods[method]){return methods[method].apply(this,[].slice.call(arguments,1))}else if(method==='letters'||!method){return methods.init.apply(this,[].slice.call(arguments,0))}$.error('Method '+method+' does not exist on jQuery.lettering');return this}})(jQuery);
+
+ // var sentence = document.getElementById("sentence");
+ // var b = parseInt(document.getElementById("b").getAttribute("value"));
+ // var e = parseInt(document.getElementById("e").getAttribute("value"));
+  
+  
+  var phrases = document.getElementById("phrases");
+  var phrases_array = phrases.getAttribute("value").split("f\:").join("").split(",");
+  var sentences = document.getElementById("sentences");
+  var sentences_array = sentences.getAttribute("value").split("','");
+  sentences_array[0] = sentences_array[0].substring(1);
+  sentences_array[sentences_array.length - 1] = sentences_array[sentences_array.length - 1].slice(0, -1);
+  var b = document.getElementById("b");
+  var b_array = b.getAttribute("value").split(",");
+  var e = document.getElementById("e");
+  var e_array = e.getAttribute("value").split(",");
+  var examples = document.getElementById("examples");
+  var examples_array = examples.getAttribute("value").split("','");
+  examples_array[0] = examples_array[0].substring(1);
+  examples_array[examples_array.length - 1] = examples_array[examples_array.length - 1].slice(0, -1);
+  var exterms = document.getElementById("examplewords");
+  var exterms_array = exterms.getAttribute("value").split(",");
+  
+  var example_explanation = document.createElement("p");
+  example_explanation.innerHTML = "<b class=\"frame\">Cure</b> is the definition of the following words:" ;
+  document.getElementById("example-panel").appendChild(example_explanation);
+  
+  var list_elem = document.createElement("ul");
+  list_elem.setAttribute("class", "fa-ul");
+  for (var idx = 0; idx < examples_array.length; idx++) {
+    var list_example = document.createElement("li");
+    // list_example.setAttribute("class", "glyphicon glyphicon-check");
+    // list_example.innerHTML = "<span class=\"example-sentence\">" + examples_array[idx] + "</span>";
+    list_example.innerHTML = "<i class=\"fa-li fa fa-check-square\"></i><span id=\"phrase_question\">" + exterms_array[idx] + "</span> from the sentence: <br/> <div class=\"panel panel-default\" id=\"checkbox-sen\"><span class=\"example-sentence\">" + examples_array[idx] + "</span></div><br/>";
+    list_elem.appendChild(list_example);
+//    list_elem.appendChild(document.createElement("BR"));
+  }
+  document.getElementById("example-panel").appendChild(list_elem);
+  
+  
+  for (var idx = 0; idx < phrases_array.length; idx++) {
+    var input = document.createElement("input");
+    input.setAttribute("name", "PhraseType");
+    input.setAttribute("type", "checkbox");
+    input.setAttribute("value", phrases_array[idx]);
+    input.setAttribute("id", phrases_array[idx]);
+    
+    var label = document.createElement("label");
+    label.appendChild(input);
+    
+    var label_text = document.createElement("span");
+    label_text.innerHTML = "<span id=\"phrase_question\">" + phrases_array[idx] + "</span> from the sentence: <br/> <div class=\"panel panel-default\" id=\"checkbox-sen\"><span class=\"sentence\" id=\"sentence" + idx + "\">" + sentences_array[idx] + "</span></div><hr/>";
+    label.appendChild(label_text);
+    
+    document.getElementById("checkbox").appendChild(label);
+//    document.getElementById("checkbox").appendChild(document.createElement("BR"));
+//    document.getElementById("checkbox").appendChild(document.createElement("BR"));
+  }
+  
+  var input = document.createElement("input");
+  input.setAttribute("name", "PhraseType");
+  input.setAttribute("type", "checkbox");
+  input.setAttribute("value", "None of the above.");
+  input.setAttribute("id", "none");
+  
+  var label = document.createElement("label");
+  label.innerHTML = "None of the above.";
+  label.appendChild(input);
+  document.getElementById("checkbox").appendChild(label);
+   
+   $(document).ready(function(){
+    //$(".collapse").collapse();
+		$(".sentence").lettering('words');
+		
+		// give ids for each word (position in sentence)
+		var spans = $(".sentence").find("span").each(function() {
+			var idNumber = $(this).attr("class").slice(4);
+			$(this).attr("id", idNumber);
+		});
+		
+		for (var jdx = 0; jdx <= phrases_array.length; jdx++) {
+		  for (var idx = parseInt(b_array[jdx]) + 1; idx <= parseInt(e_array[jdx]); idx++) {
+		    //$(".word" + idx).css("text-transform", "uppercase");
+		    $("#sentence" + jdx +  " .word" + idx).css("font-weight", "bold");
+		    $("#sentence" + jdx +  " .word" + idx).css("font-size", "medium");
+		    $("#sentence" + jdx +  " .word" + idx).css("color", "darkgreen");
+		    $("#sentence" + jdx +  " .word" + idx).css("font-style", "normal");
+		  }
+		}
+		
+		$("#none").change(function() {
+		  if($(this).prop("checked")) {
+		    for (var idx = 0; idx < phrases_array.length; idx++) {
+		      $("#" + phrases_array[idx]).prop("checked", false);
+		    }
+		  }
+		});
+		for (var idx = 0; idx < phrases_array.length; idx++) {
+  		$("#" + phrases_array[idx]).change(function() {
+  		  if($(this).prop("checked")) {
+  		    $("#none").prop("checked", false);
+  		    $(".collapse").collapse("hide");
+  		  }
+  		});
+		}
+	});
+  
+
+</script>
+
+<body>
+</html>
