@@ -12,9 +12,13 @@
 <div class="panel-heading"><strong>Instructions</strong></div>
 
 <div class="panel-body">
-<p>You will be given <strong>a definition</strong> that can apply to a word, or set of words that are similar in meaning. From the list below, select <strong>all words</strong> that can be explained with the definition, in the context of the given sentence.</p>
 
-<p>If none of the words in the list correspond to the definition, select <strong>None of the above</strong>.</p>
+<p>1. Read the <b>definition</b> and <b>example sentences</b> with highlighted words that fit the definition.
+
+<p>2. Select from the list <b>all words that fit the definition</b>. The words are shown in the context of a sentence.
+
+<p>3. If none of the words fit the definition, select <b>''None of the above''</b> , then write your own sentence that uses the definition.
+
 </div>
 </div>
 <!-- End Instructions --><!-- Content Body -->
@@ -32,9 +36,14 @@
 </div>
 
 <fieldset>
-<label>Which of the following words can be explained by the definition of <b class="frame">Cure</b>? Take into account the context of the sentence.</label>
+<label>Which of the following <span id="phrase_question">words (in green highlight)</span> fit the definition of <b class="frame">Cure</b>? Take into account the context of the sentence. Check ALL that apply.</label>
 
 <div class="checkbox" id="checkbox">
+</div>
+
+<div id="demo" class="collapse">
+Write a sentence with a word that fits the definition of <b class="frame">Cure</b> :
+<textarea name='WhyNone' rows=3 cols=80></textarea>
 </div>
 
 
@@ -144,7 +153,7 @@ b.frame {
   var exterms_array = exterms.getAttribute("value").split(",");
   
   var example_explanation = document.createElement("p");
-  example_explanation.innerHTML = "<b class=\"frame\">Cure</b> is the definition of the following words:" ;
+  example_explanation.innerHTML = "<b class=\"frame\">Cure</b> is the definition of the following <span id='phrase_question'>words (in green highlight)</span>:" ;
   document.getElementById("example-panel").appendChild(example_explanation);
   
   var list_elem = document.createElement("ul");
@@ -153,7 +162,7 @@ b.frame {
     var list_example = document.createElement("li");
     // list_example.setAttribute("class", "glyphicon glyphicon-check");
     // list_example.innerHTML = "<span class=\"example-sentence\">" + examples_array[idx] + "</span>";
-    list_example.innerHTML = "<i class=\"fa-li fa fa-check-square\"></i><span id=\"phrase_question\">" + exterms_array[idx] + "</span> from the sentence: <br/> <div class=\"panel panel-default\" id=\"checkbox-sen\"><span class=\"example-sentence\">" + examples_array[idx] + "</span></div><br/>";
+    list_example.innerHTML = "<i class=\"fa-li fa fa-check-square\"></i><span class=\"example-sentence\">" + examples_array[idx] + "</span><br/>";
     list_elem.appendChild(list_example);
 //    list_elem.appendChild(document.createElement("BR"));
   }
@@ -171,7 +180,7 @@ b.frame {
     label.appendChild(input);
     
     var label_text = document.createElement("span");
-    label_text.innerHTML = "<span id=\"phrase_question\">" + phrases_array[idx] + "</span> from the sentence: <br/> <div class=\"panel panel-default\" id=\"checkbox-sen\"><span class=\"sentence\" id=\"sentence" + idx + "\">" + sentences_array[idx] + "</span></div><hr/>";
+    label_text.innerHTML = "<span class=\"sentence\" id=\"sentence" + idx + "\">" + sentences_array[idx] + "</span><hr/>";
     label.appendChild(label_text);
     
     document.getElementById("checkbox").appendChild(label);
@@ -186,6 +195,9 @@ b.frame {
   input.setAttribute("id", "none");
   
   var label = document.createElement("label");
+  label.setAttribute("class", "form-check-label");
+  label.setAttribute("data-toggle", "collapse");
+  label.setAttribute("data-target", "#demo");
   label.innerHTML = "None of the above.";
   label.appendChild(input);
   document.getElementById("checkbox").appendChild(label);
