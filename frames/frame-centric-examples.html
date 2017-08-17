@@ -53,6 +53,7 @@ Write a sentence with a word that fits the definition:
 <input id="e" name="e" type="hidden" value="5,8,5,18,3" />
 <input id="examples" name="examples" type="hidden" value="'The shaman used herbs to <span id='phrase_question'>heal</span> the wound.','Both infants were heavily <span id='phrase_question'>medicated</span> to alleviate their seizures.'" />
 <input id="examplewords" name="examplewords" type="hidden" value="heal,medicated" />
+<input id="frameelems" name="frameelems" type="hidden" value="Healer,Affliction,Patient,Treatment,Medication" />
 
 </fieldset>
 
@@ -151,6 +152,8 @@ b.frame {
   examples_array[examples_array.length - 1] = examples_array[examples_array.length - 1].slice(0, -1);
   var exterms = document.getElementById("examplewords");
   var exterms_array = exterms.getAttribute("value").split(",");
+  var frameelems = document.getElementById("frameelems");
+  var frameelems_array = frameelems.getAttribute("value").split(",");
   
   var example_explanation = document.createElement("p");
   example_explanation.innerHTML = "The following <span id='phrase_question'>words (in green highlight)</span> fit the definition:" ;
@@ -167,7 +170,16 @@ b.frame {
 //    list_elem.appendChild(document.createElement("BR"));
   }
   document.getElementById("example-panel").appendChild(list_elem);
-  
+  var expl_par = document.createElement("p");
+  expl_par_str = "Note that the ";
+  for (var idx = 0; idx < frameelems_array.length; idx++) {
+    expl_par_str += "<span class=\"definition\"><em>" + frameelems_array[idx] + "</em></span>";
+    if (idx < frameelems_array.length - 2) expl_par_str += ", ";
+    if (idx == frameelems_array.length - 2) expl_par_str += " and ";
+  }
+  expl_par_str += " are not necessarily expressed in the sentence.";
+  expl_par.innerHTML = expl_par_str;
+  document.getElementById("example-panel").appendChild(expl_par);
   
   for (var idx = 0; idx < phrases_array.length; idx++) {
     var input = document.createElement("input");
