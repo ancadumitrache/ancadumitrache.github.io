@@ -8,10 +8,11 @@
 
 #### 2017
 
-* Anca Dumitrache, Oana Inel, Benjamin Timmermans and Lora Aroyo: **[Crowdsourcing Ambiguity-Aware Ground Truth](http://crowdtruth.org/wp-content/uploads/2017/03/collint17-crowdtruth-maj.pdf)**. [Collective Intelligence 2017](http://collectiveintelligenceconference.org/) (in print).
+* Anca Dumitrache, Lora Aroyo and Chris Welty: **[False Positive and Cross-relation Signals in Distant Supervision Data](https://arxiv.org/abs/1711.05186)**. [AKBC](http://www.akbc.ws/) Workshop at [NIPS 2017](http://nips.cc/).
+* Anca Dumitrache, Lora Aroyo and Chris Welty: **[Crowdsourcing Ground Truth for Medical Relation Extraction](https://arxiv.org/abs/1701.02185)**. [ACM TiiS Special Issue on Human-Centered Machine Learning](http://hcml2016.goldsmithsdigital.com/acm-tiis-special-issue/) (in publication).
+* Anca Dumitrache, Oana Inel, Benjamin Timmermans and Lora Aroyo: **[Crowdsourcing Ambiguity-Aware Ground Truth](http://crowdtruth.org/wp-content/uploads/2017/03/collint17-crowdtruth-maj.pdf)**. [Collective Intelligence 2017](http://collectiveintelligenceconference.org/).
 * Anca Dumitrache, Lora Aroyo and Chris Welty: **[Disagreement in Crowdsourcing and Active Learning for Better Distant Supervision Quality](http://crowdtruth.org/wp-content/uploads/2017/03/collint17-open-domain.pdf)**. [Collective Intelligence 2017](http://collectiveintelligenceconference.org/) (in print).
-* Anca Dumitrache, Oana Inel, Benjamin Timmermans, Carlos Ortiz, Robert-Jan Sips, Lora Aroyo: **[Empirical Methodology for Crowdsourcing Ground Truth](http://www.semantic-web-journal.net/system/files/swj1569.pdf)**. [Semantic Web Journal Special Issue on Human Computation and Crowdsourcing (HC&C) in the Context of the Semantic Web](http://www.semantic-web-journal.net/system/files/swj1569.pdf) (in review).
-* Anca Dumitrache, Lora Aroyo and Chris Welty: **[Crowdsourcing Ground Truth for Medical Relation Extraction](https://arxiv.org/abs/1701.02185)**. [ACM TiiS Special Issue on Human-Centered Machine Learning](http://hcml2016.goldsmithsdigital.com/acm-tiis-special-issue/) (in review).
+* Anca Dumitrache, Oana Inel, Benjamin Timmermans, Carlos Ortiz, Robert-Jan Sips, Lora Aroyo, Chris Welty: **[Empirical Methodology for Crowdsourcing Ground Truth](http://www.semantic-web-journal.net/system/files/swj1569.pdf)**. [Semantic Web Journal Special Issue on Human Computation and Crowdsourcing (HC&C) in the Context of the Semantic Web](http://www.semantic-web-journal.net/system/files/swj1569.pdf) (in review).
 
 #### 2016
 
