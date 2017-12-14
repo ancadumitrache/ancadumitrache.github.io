@@ -1,0 +1,258 @@
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<link href="https://s3.amazonaws.com/mturk-public/bs30/css/bootstrap.min.css" rel="stylesheet" />
+<script src="https://use.fontawesome.com/4b6dfd67d9.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<section class="container" id="Other" style="margin-bottom:15px; padding: 10px 10px; font-family: Verdana, Geneva, sans-serif; color:#333333; font-size:0.9em; font-size: medium;">
+<div class="row col-xs-12 col-md-12"><!-- Instructions -->
+<div class="panel panel-primary">
+<div class="panel-heading"><strong>Instructions</strong></div>
+
+<div class="panel-body">
+
+<p><u>Introduction:</u></p>
+
+<p>This task is about highlighting the <strong>opinions of Russian and American diplomats and spokespersons about factions involved in the Syrian Civil War</strong>. An <strong>opinion</strong> within the context of diplomatic statements refers to a subjective view or judgment formed about another faction by a diplomatic spokesperson.</p>
+
+
+<p><u>Annotation Steps</u><u>:</u></p>
+
+<ol>
+	<li>From the list below, <em>select the sentences where you think that a Russian or American diplomatic figure is expressing an opinion about another faction involved in the conflict</em>.</li>
+	<li>After you have selected a sentence, indicate whether <em>the sentence was uttered by a Russian or American diplomatic figure</em>.</li>
+	<li>Indicate whether <em>the diplomatic figure is talking about the United States, Russia, the Syrian government or the Syrian opposition</em>. Do not annotate Russian statements about Russia or American statements about the United States.</li>
+	<li>Indicate whether <em>the speaker is positive or negative</em> about the faction he is expressing an opinion about.</li>
+</ol>
+
+
+<p data-empty="true"><u>Example:</u></p>
+
+<p data-empty="true">Let's take a look at the following sentence: <span class="sentence">"We condemn the Assad regime's disregard for the will of its citizens and Iran's insidious interference."</span> - Hillary Clinton, 2011</p>
+
+<p data-empty="true">Firstly, we would select the entire sentence. Secondly, since we know that Hillary Clinton is a politician from the United States who fulfilled a diplomatic function in 2011, we would indicate that this is an American diplomatic figure. Thirdly, since she is speaking about the Assad Regime, we would indicate that this statement is about the Syrian government. Fourthly, since Mrs. Clinton is denouncing the Assad Regime in this sentence, we would indicate that this statement is negative in nature.</p>
+
+</div>
+</div>
+<!-- End Instructions --><!-- Content Body -->
+
+<section>
+
+<div class="panel panel-default">
+<div class="panel-heading">Source of the sentences:</div>
+<div class="panel-body"><span class="sentence" id="sentence">Russian Foreign Minister Sergey Lavrov</span></div>
+</div>
+
+<fieldset>
+<label>Which of the following sentences express the opinions of Russian or American diplomats and spokespersons about factions involved in the Syrian Civil War?</label>
+
+<div class="checkbox" id="checkbox">
+</div>
+
+
+<input id="sentences" name="sentences" type="hidden" value="Dear Mr Jamil, dear delegation members,;;;We deem it important to use your stay in Moscow to exchange opinions about the development of the situation in Syria and, the main thing, to make it pass to a political tideway.;;;We are seriously concerned with the situation in SAR.;;;We are convinced that there is no military solution for the crisis.;;;We would like to bring this thought to each and all participants of the Syrian process.;;;We continue to meet both representative of SAR Government and the opposition groups, convince everybody that we need to adopt the Russian-American initiative as soon as possible, especially in what concerns the convention of an International Conference on Syria without preconditions, for full and comprehensive implementation of the Geneva Communique of 30 June 2012.;;;Unfortunately, unlike the Government of Syria the majority of the opposition, including representative of the National Coalition do not show such readiness.;;;We insistently and consistently appeal to our partners having serious impact on the National Coalition to use it for a good cause and to achieve its refusal from its current non-constructive position.;;;We know that the Syrian Government is open for the dialogue with opposition forces.;;;We appeal to continue these efforts so that no constructive group of opposition members stays outside the frame of participants of the international conference, which, I hope, will be convened in the nearest future.;;;I also would like to draw attention to the final Declaration of leaders of countries of the Group of Eight adopted in Lough Erne (Northern Ireland) last month, the section of which dedicated to the situation in Syria, contains a direct appeal to the Syrian Government and the opposition to consolidate efforts to remove terrorists and extremists from the country.;;;We think that this task should become one of the main items of the international conference.;;;We certainly need to develop specific measures, which will allow implementing each and all provisions of the Geneva Communique.;;;At our today's meeting, I expect to discuss these issues, as well as main lines of bilateral relations." />
+
+</fieldset>
+
+
+</section>
+<!-- End Content Body --></div>
+</section>
+<!-- close container -->
+<style type="text/css">fieldset {
+    padding: 10px;
+    background:#fbfbfb;
+    border-radius:5px;
+    margin-bottom:5px;
+    font-size: medium;
+}
+
+.checkbox label {
+  padding: 10px;
+}
+
+.definition {
+  font-family: "Times New Roman", Georgia, serif;
+  color: #0000A0;
+  font-size: large;
+  text-align:center;
+}
+
+.sentfieldset {
+  border: 1px solid gray; padding: 10px; margin: 0px; -webkit-border-radius: 5px; -moz-border-radius: 5px;
+  border-radius: 5px;
+  background:white;
+}
+
+.sentlegend {
+  text-align: left;
+  font-size: medium;
+}
+
+.sentence{
+  font-family: "Times New Roman", Georgia, serif;
+  /*margin-left:7px;
+  margin-top:7px;*/
+  font-style:italic;
+}
+
+.example-sentence{
+  font-family: "Times New Roman", Georgia, serif;
+  /*margin-left:7px;
+  margin-top:7px;*/
+  font-style:italic;
+}
+
+.phrase_question {
+  font-weight: bold;
+  color: darkgreen;
+  font-family: "Times New Roman", Georgia, serif;
+  font-size: medium;
+}
+
+#checkbox-sen{
+  padding: 15px;
+  margin-left: 10px;
+}
+
+b.frame {
+  font-family: "Times New Roman", Georgia, serif;
+  color: darkblue;
+}
+
+</style>
+
+
+<script type="text/javascript">
+
+  (function($){function injector(t,splitter,klass,after){var a=t.text().split(splitter),inject='';if(a.length){$(a).each(function(i,item){inject+='<span class="'+klass+(i+1)+'">'+item+'</span>'+after});t.empty().append(inject)}}var methods={init:function(){return this.each(function(){injector($(this),';;;char;;;')})},words:function(){return this.each(function(){injector($(this),' ;;;word;;; ')})},lines:function(){return this.each(function(){var r="eefec303079ad17405c889e092e105b0";injector($(this).children("br").replaceWith(r).end(),r,'line;;;')})}};$.fn.lettering=function(method){if(method&&methods[method]){return methods[method].apply(this,[].slice.call(arguments,1))}else if(method==='letters'||!method){return methods.init.apply(this,[].slice.call(arguments,0))}$.error('Method '+method+' does not exist on jQuery.lettering');return this}})(jQuery);
+  
+  var sentences = document.getElementById("sentences");
+  var sentences_array = sentences.getAttribute("value").split(";;;");
+
+  
+  for (var idx = 0; idx < sentences_array.length; idx++) {
+    var input = document.createElement("input");
+    input.setAttribute("name", "SentList");
+    input.setAttribute("type", "checkbox");
+    input.setAttribute("value", "sent_" + idx);
+    input.setAttribute("id", "sent_" + idx);
+    
+    var label = document.createElement("label");
+    label.appendChild(input);
+    
+    var label_text = document.createElement("span");
+    label_text.innerHTML = "<span class=\"sentence\" id=\"sentence" + idx + "\">" + sentences_array[idx] + "</span>";
+    label.appendChild(label_text);
+    
+    var collapse_div = document.createElement("div");
+    collapse_div.setAttribute("class", "collapse");
+    collapse_div.setAttribute("id", "detailed_questions_" + idx);
+    
+    var p1 = document.createElement("p");
+    p1.innerHTML = "Who is the source of the sentence above?  ";
+    var q1 = document.createElement("select");
+    q1.setAttribute("name", "source_sent_" + idx);
+    q1opt1 = document.createElement("option");
+    q1opt1.setAttribute("value", "United States");
+    q1opt1.innerHTML = "United States";
+    q1.appendChild(q1opt1);
+    q1opt2 = document.createElement("option");
+    q1opt2.setAttribute("value", "Russia");
+    q1opt2.innerHTML = "Russia";
+    q1.appendChild(q1opt2);
+    q1.selectedIndex = -1;
+    p1.appendChild(q1);
+    collapse_div.appendChild(p1);
+    
+    var p2 = document.createElement("p");
+    p2.innerHTML = "Who is the sentence about?  ";
+    var q2 = document.createElement("select");
+    q2.setAttribute("name", "object_sent_" + idx);
+    q2opt1 = document.createElement("option");
+    q2opt1.setAttribute("value", "United States");
+    q2opt1.innerHTML = "United States";
+    q2.appendChild(q2opt1);
+    q2opt2 = document.createElement("option");
+    q2opt2.setAttribute("value", "Russia");
+    q2opt2.innerHTML = "Russia";
+    q2.appendChild(q2opt2);
+    q2opt3 = document.createElement("option");
+    q2opt3.setAttribute("value", "Syrian government");
+    q2opt3.innerHTML = "Syrian government";
+    q2.appendChild(q2opt3);
+    q2opt4 = document.createElement("option");
+    q2opt4.setAttribute("value", "Syrian opposition");
+    q2opt4.innerHTML = "Syrian opposition";
+    q2.appendChild(q2opt4);
+    q2.selectedIndex = -1;
+    p2.appendChild(q2);
+    collapse_div.appendChild(p2);
+    
+    var p3 = document.createElement("p");
+    p3.innerHTML = "What is the sentiment of the opinion expressed?  ";
+    var q3 = document.createElement("select");
+    q3.setAttribute("name", "posneg_sent_" + idx);
+    q3opt1 = document.createElement("option");
+    q3opt1.setAttribute("value", "positive");
+    q3opt1.innerHTML = "positive";
+    q3.appendChild(q3opt1);
+    q3opt2 = document.createElement("option");
+    q3opt2.setAttribute("value", "negative");
+    q3opt2.innerHTML = "negative";
+    q3.appendChild(q3opt2);
+    q3.selectedIndex = -1;
+    p3.appendChild(q3);
+    collapse_div.appendChild(p3);
+    
+    
+    label.setAttribute("class", "form-check-label");
+    label.setAttribute("data-toggle", "collapse");
+    label.setAttribute("data-target", "#detailed_questions_" + idx);
+    
+    
+    document.getElementById("checkbox").appendChild(label);
+    var br = document.createElement("br");
+    document.getElementById("checkbox").appendChild(br);
+    document.getElementById("checkbox").appendChild(collapse_div);
+    var hr = document.createElement("hr");
+    document.getElementById("checkbox").appendChild(hr);
+  }
+   
+   $(document).ready(function(){
+    //$(".collapse").collapse();
+		//$(".sentence").lettering('words');
+		
+		// give ids for each word (position in sentence)
+		/*var spans = $(".sentence").find("span").each(function() {
+			var idNumber = $(this).attr("class").slice(4);
+			$(this).attr("id", idNumber);
+		});*/
+		
+		/*for (var jdx = 0; jdx <= phrases_array.length; jdx++) {
+		  for (var idx = parseInt(b_array[jdx]) + 1; idx <= parseInt(e_array[jdx]); idx++) {
+		    //$(".word" + idx).css("text-transform", "uppercase");
+		    $("#sentence" + jdx +  " .word" + idx).css("font-weight", "bold");
+		    $("#sentence" + jdx +  " .word" + idx).css("font-size", "medium");
+		    $("#sentence" + jdx +  " .word" + idx).css("color", "darkgreen");
+		    $("#sentence" + jdx +  " .word" + idx).css("font-style", "normal");
+		  }
+		}*/
+		
+		/*$("#none").change(function() {
+		  if($(this).prop("checked")) {
+		    for (var idx = 0; idx < syns_array.length; idx++) {
+		      $("#" + syns_array[idx]).prop("checked", false);
+		    }
+		  }
+		});
+		for (var idx = 0; idx < syns_array.length; idx++) {
+  		$("#" + syns_array[idx]).change(function() {
+  		  if($(this).prop("checked")) {
+  		    $("#none").prop("checked", false);
+  		    $(".collapse").collapse("hide");
+  		  }
+  		});
+		}*/
+	});
+  
+
+</script>
