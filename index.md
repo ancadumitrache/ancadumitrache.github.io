@@ -18,9 +18,17 @@ Also find me at: &nbsp; [<i class="fa fa-envelope fa-2x"></i>](mailto:anca.dumit
 
 ***
 
+###Latest News###
+
+* Our paper on ambiguity in crowdsourcing semantic frame disambiguation got accepted at [HCOMP 2018](https://www.humancomputation.com/2018/)! Preprint and dataset coming soon!
+* I gave a [WAI talk](https://wai.few.vu.nl/schedule/presentation/992/) about crowdsourcing semantic frame disambiguation.
+* I went to [NIPS 2017](https://nips.cc/Conferences/2017) to present our paper [False Positive and Cross Relation Signals in Distant Supervision Data](https://arxiv.org/abs/1711.05186) in the [AKBC 2017](http://www.akbc.ws/2017/) workshop. 
+
+***
+
 ###Planned Travel###
 
-* [HCOMP 2018](http://iswc2018.semanticweb.org/): July 5-8, Zürich, 🇨🇭
+* [HCOMP 2018](https://www.humancomputation.com/2018/): July 5-8, Zürich, 🇨🇭
 * [ISWC 2018](http://iswc2018.semanticweb.org/): October 8-12, Monterey, CA, 🇺🇲
 
 ***
