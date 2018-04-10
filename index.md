@@ -28,7 +28,7 @@ Also find me at: &nbsp; [<i class="fa fa-envelope fa-2x"></i>](mailto:anca.dumit
 
 ###Planned Travel###
 
-* [HCOMP 2018](https://www.humancomputation.com/2018/): July 5-8, Zürich, 🇨🇭
+* [HCOMP 2018](https://www.humancomputation.com/2018/) & [Collective Intelligence 2018](http://ci.acm.org/2018/): July 5-8, Zürich, 🇨🇭
 * [ISWC 2018](http://iswc2018.semanticweb.org/): October 8-12, Monterey, CA, 🇺🇲
 
 ***
