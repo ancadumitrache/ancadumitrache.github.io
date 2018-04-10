@@ -20,9 +20,10 @@ Also find me at: &nbsp; [<i class="fa fa-envelope fa-2x"></i>](mailto:anca.dumit
 
 ###Latest News###
 
+* Our paper [False Positive and Cross Relation Signals in Distant Supervision Data](https://arxiv.org/abs/1711.05186) from the [AKBC](http://www.akbc.ws/2017/) workshop at [NIPS 2017](https://nips.cc/Conferences/2017) got accepted as a poster presentation at [Collective Intelligence 2018](http://ci.acm.org/2018/).
 * Our paper on ambiguity in crowdsourcing semantic frame disambiguation got accepted at [HCOMP 2018](https://www.humancomputation.com/2018/)! Preprint and dataset coming soon!
-* I gave a [WAI talk](https://wai.few.vu.nl/schedule/presentation/992/) about crowdsourcing semantic frame disambiguation.
-* I went to [NIPS 2017](https://nips.cc/Conferences/2017) to present our paper [False Positive and Cross Relation Signals in Distant Supervision Data](https://arxiv.org/abs/1711.05186) in the [AKBC 2017](http://www.akbc.ws/2017/) workshop. 
+* I went to [ICT Open 2018](http://www.ictopen.nl/) to present our paper [False Positive and Cross Relation Signals in Distant Supervision Data](https://arxiv.org/abs/1711.05186) from the [AKBC](http://www.akbc.ws/2017/) workshop at [NIPS 2017](https://nips.cc/Conferences/2017). **[Slides](presentations/ICT-Open-2018-Open_Domain_Relex.pdf)**
+* I gave a [WAI talk](https://wai.few.vu.nl/schedule/presentation/992/) about crowdsourcing semantic frame disambiguation. **[Slides](presentations/WAI-2018-Frames_Disambiguation.pdf)**
 
 ***
 
