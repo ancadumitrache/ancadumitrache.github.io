@@ -6,6 +6,11 @@
 
 <img src="anca.jpg" width="300" style="float: right; margin-left: 80px; margin-bottom: 20px; margin-top: 20px" />
 
+#### 2018
+
+* Anca Dumitrache, Lora Aroyo and Chris Welty: **Capturing and Interpreting Ambiguity in Crowdsourcing Frame Disambiguation**. [HCOMP 2018](https://www.humancomputation.com/2018/) (in publication).
+* Anca Dumitrache, Lora Aroyo and Chris Welty: **False Positive and Cross-relation Signals in Distant Supervision Data**. [Collective Intelligence 2018](http://ci.acm.org/2018/) (in publication).
+
 #### 2017
 
 * Anca Dumitrache, Lora Aroyo and Chris Welty: **[False Positive and Cross-relation Signals in Distant Supervision Data](https://arxiv.org/abs/1711.05186)**. [AKBC](http://www.akbc.ws/) Workshop at [NIPS 2017](http://nips.cc/).
