@@ -16,7 +16,7 @@
 * Anca Dumitrache, Lora Aroyo and Chris Welty: **[False Positive and Cross-relation Signals in Distant Supervision Data](https://arxiv.org/abs/1711.05186)**. [AKBC](http://www.akbc.ws/) Workshop at [NIPS 2017](http://nips.cc/).
 * Anca Dumitrache, Lora Aroyo and Chris Welty: **[Crowdsourcing Ground Truth for Medical Relation Extraction](https://arxiv.org/abs/1701.02185)**. [ACM TiiS Special Issue on Human-Centered Machine Learning](http://hcml2016.goldsmithsdigital.com/acm-tiis-special-issue/) (in publication).
 * Anca Dumitrache, Oana Inel, Benjamin Timmermans and Lora Aroyo: **[Crowdsourcing Ambiguity-Aware Ground Truth](http://crowdtruth.org/wp-content/uploads/2017/03/collint17-crowdtruth-maj.pdf)**. [Collective Intelligence 2017](http://collectiveintelligenceconference.org/).
-* Anca Dumitrache, Lora Aroyo and Chris Welty: **[Disagreement in Crowdsourcing and Active Learning for Better Distant Supervision Quality](http://crowdtruth.org/wp-content/uploads/2017/03/collint17-open-domain.pdf)**. [Collective Intelligence 2017](http://collectiveintelligenceconference.org/) (in print).
+* Anca Dumitrache, Lora Aroyo and Chris Welty: **[Disagreement in Crowdsourcing and Active Learning for Better Distant Supervision Quality](http://crowdtruth.org/wp-content/uploads/2017/03/collint17-open-domain.pdf)**. [Collective Intelligence 2017](http://collectiveintelligenceconference.org/).
 * Anca Dumitrache, Oana Inel, Benjamin Timmermans, Carlos Ortiz, Robert-Jan Sips, Lora Aroyo, Chris Welty: **[Empirical Methodology for Crowdsourcing Ground Truth](http://www.semantic-web-journal.net/system/files/swj1569.pdf)**. [Semantic Web Journal Special Issue on Human Computation and Crowdsourcing (HC&C) in the Context of the Semantic Web](http://www.semantic-web-journal.net/system/files/swj1569.pdf) (in review).
 
 #### 2016
@@ -26,7 +26,7 @@
 
 #### 2015
 
-* Anca Dumitrache, Lora Aroyo, Chris Welty: **[CrowdTruth Measures for Language Ambiguity: The Case of Medical Relation Extraction](http://ceur-ws.org/Vol-1467/LD4IE2015_Dumitrache.pdf)**. [LD4IE](http://oak.dcs.shef.ac.uk/ld4ie2015/LD4IE2015/Overview.html) Workshop at [ISWC 2015](http://iswc2015.semanticweb.org/).
+* Anca Dumitrache, Lora Aroyo, Chris Welty: **[CrowdTruth Measures for Language Ambiguity: The Case of Medical Relation Extraction](http://ceur-ws.org/Vol-1467/LD4IE2015_Dumitrache.pdf)**. [LD4IE](http://oak.dcs.shef.ac.uk/ld4ie2015/LD4IE2015/Overview.html) Workshop at [ISWC 2015](http://iswc2015.semanticweb.org/). **Best paper award.**
 * Anca Dumitrache, Lora Aroyo, Chris Welty: **[Achieving Expert-Level Annotation Quality with CrowdTruth: The Case of Medical Relation Extraction](http://ceur-ws.org/Vol-1428/BDM2I_2015_paper_3.pdf)**. [BDM2I](https://sbmi.uth.edu/ontology/bdm2i.htm) Workshop at [ISWC 2015](http://iswc2015.semanticweb.org/).
 * Anca Dumitrache: **[Crowdsourcing Disagreement for Collecting Semantic Annotation](http://link.springer.com/chapter/10.1007/978-3-319-18818-8_43)**. PhD Symposium at [ESWC 2015](http://2015.eswc-conferences.org/).
 
