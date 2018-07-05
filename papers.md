@@ -10,7 +10,7 @@
 
 * Anca Dumitrache, Lora Aroyo and Chris Welty: **[Capturing and Interpreting Ambiguity in Crowdsourcing Frame Disambiguation](https://arxiv.org/abs/1805.00270)**. [HCOMP 2018](https://www.humancomputation.com/2018/).
 * Anca Dumitrache, Lora Aroyo and Chris Welty: **[False Positive and Cross-relation Signals in Distant Supervision Data](http://crowdtruth.org/wp-content/uploads/2018/05/collint-2018-false.pdf)**. [Collective Intelligence 2018](http://ci.acm.org/2018/).
-* Anca Dumitrache, Lora Aroyo and Chris Welty: **[Metrics for Capturing Ambiguity in Crowdsourcing by Interlinking Workers, Annotations and Input Data](http://crowdtruth.org/wp-content/uploads/2018/07/metrics-capturing-ambiguity.pdf)**. [SAD](https://sadworkshop.wordpress.com/) workshop at [HCOMP 2018](https://www.humancomputation.com/2018/). **[Code](https://github.com/CrowdTruth/CrowdTruth-core)** | **[Slides](http://ancad.ro/presentations/SAD-2018-slides.pdf)** | **[Poster](http://ancad.ro/presentations/SAD-2018-slides.pdf)**
+* Anca Dumitrache, Lora Aroyo and Chris Welty: **[Metrics for Capturing Ambiguity in Crowdsourcing by Interlinking Workers, Annotations and Input Data](http://crowdtruth.org/wp-content/uploads/2018/07/metrics-capturing-ambiguity.pdf)**. [SAD](https://sadworkshop.wordpress.com/) workshop at [HCOMP 2018](https://www.humancomputation.com/2018/). **[Code](https://github.com/CrowdTruth/CrowdTruth-core)** | **[Slides](http://ancad.ro/presentations/SAD-2018-slides.pdf)** | **[Poster](http://ancad.ro/presentations/SAD-2018-poster.png)**
 
 
 #### 2017
