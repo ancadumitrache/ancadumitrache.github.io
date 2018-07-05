@@ -20,11 +20,11 @@ Also find me at: &nbsp; [<i class="fa fa-envelope fa-2x"></i>](mailto:anca.dmtrc
 
 ###Latest News###
 
+* Presenting the new CrowdTruth metrics in the [SAD workshop](https://sadworkshop.wordpress.com/) today @ [HCOMP 2018](https://www.humancomputation.com/2018/). **[Paper](http://crowdtruth.org/wp-content/uploads/2018/07/metrics-capturing-ambiguity.pdf)** | **[Code](https://github.com/CrowdTruth/CrowdTruth-core)** | **[Slides](http://ancad.ro/presentations/SAD-2018-slides.pdf)** | **[Poster](http://ancad.ro/presentations/SAD-2018-slides.pdf)**
 * [Figure Eight](https://www.figure-eight.com/) re-published our dataset and task template for [medical relation extraction from sentences](https://www.figure-eight.com/dataset/medical-sentence-summary-and-relation-extraction/) as part of their series of highly curated crowdsourced datasets.
 * Our paper [False Positive and Cross Relation Signals in Distant Supervision Data](https://arxiv.org/abs/1711.05186) from the [AKBC](http://www.akbc.ws/2017/) workshop at [NIPS 2017](https://nips.cc/Conferences/2017) got accepted as a poster presentation at [Collective Intelligence 2018](http://ci.acm.org/2018/).
 * Our paper on ambiguity in crowdsourcing semantic frame disambiguation got accepted at [HCOMP 2018](https://www.humancomputation.com/2018/)! **[Paper](https://arxiv.org/abs/1805.00270)** | **[Dataset](https://github.com/CrowdTruth/FrameDisambiguation)**
 * I went to [ICT Open 2018](http://www.ictopen.nl/) to present our paper [False Positive and Cross Relation Signals in Distant Supervision Data](https://arxiv.org/abs/1711.05186) from the [AKBC](http://www.akbc.ws/2017/) workshop at [NIPS 2017](https://nips.cc/Conferences/2017). **[Slides](presentations/ICT-Open-2018-Open_Domain_Relex.pdf)**
-* I gave a [WAI talk](https://wai.few.vu.nl/schedule/presentation/992/) about crowdsourcing semantic frame disambiguation. **[Slides](presentations/WAI-2018-Frames_Disambiguation.pdf)**
 
 ***
 
