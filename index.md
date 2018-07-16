@@ -30,9 +30,9 @@ Also find me at: &nbsp; [<i class="fa fa-envelope fa-2x"></i>](mailto:anca.dmtrc
 
 ###Planned Travel###
 
-* [HCOMP 2018](https://www.humancomputation.com/2018/) & [Collective Intelligence 2018](http://ci.acm.org/2018/): July 5-8, Zürich, 🇨🇭
 * [TMLSS 2018](https://tmlss.ro/): July 16-22, Cluj Napoca, 🇷🇴
 * [ISWC 2018](http://iswc2018.semanticweb.org/): October 8-12, Monterey, CA, 🇺🇲
+* [EMNLP 2018](http://emnlp2018.org/): October 31 - November 4, Brussels, 🇧🇪
 
 ***
 
