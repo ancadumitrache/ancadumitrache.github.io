@@ -20,17 +20,16 @@ Also find me at: &nbsp; [<i class="fa fa-envelope fa-2x"></i>](mailto:anca.dmtrc
 
 ###Latest News###
 
+* I spent a lovely week at [TMLSS](https://tmlss.ro/) in Cluj-Napoca, Romania, learning about machine & reinforcement learning.
 * I presented our paper on frame disambiguation using CrowdTruth at [HCOMP 2018](https://www.humancomputation.com/2018/). **[Paper](https://arxiv.org/abs/1805.00270)** | **[Dataset](https://github.com/CrowdTruth/FrameDisambiguation)** | **[Slides](http://ancad.ro/presentations/HCOMP-2018-slides.pdf)**
 * We discussed the new CrowdTruth metrics in the [SAD workshop](https://sadworkshop.wordpress.com/) @ [HCOMP 2018](https://www.humancomputation.com/2018/). **[Paper](http://crowdtruth.org/wp-content/uploads/2018/07/metrics-capturing-ambiguity.pdf)** | **[Code](https://github.com/CrowdTruth/CrowdTruth-core)** | **[Slides](http://ancad.ro/presentations/SAD-2018-slides.pdf)** | **[Poster](http://ancad.ro/presentations/SAD-2018-poster.png)**
 * [Figure Eight](https://www.figure-eight.com/) re-published our dataset and task template for [medical relation extraction from sentences](https://www.figure-eight.com/dataset/medical-sentence-summary-and-relation-extraction/) as part of their series of highly curated crowdsourced datasets.
 * Our paper [False Positive and Cross Relation Signals in Distant Supervision Data](https://arxiv.org/abs/1711.05186) from the [AKBC](http://www.akbc.ws/2017/) workshop at [NIPS 2017](https://nips.cc/Conferences/2017) got accepted as a poster presentation at [Collective Intelligence 2018](http://ci.acm.org/2018/).
-* I went to [ICT Open 2018](http://www.ictopen.nl/) to present our paper [False Positive and Cross Relation Signals in Distant Supervision Data](https://arxiv.org/abs/1711.05186) from the [AKBC](http://www.akbc.ws/2017/) workshop at [NIPS 2017](https://nips.cc/Conferences/2017). **[Slides](presentations/ICT-Open-2018-Open_Domain_Relex.pdf)**
 
 ***
 
 ###Planned Travel###
 
-* [TMLSS 2018](https://tmlss.ro/): July 16-22, Cluj Napoca, 🇷🇴
 * [ISWC 2018](http://iswc2018.semanticweb.org/): October 8-12, Monterey, CA, 🇺🇲
 * [EMNLP 2018](http://emnlp2018.org/): October 31 - November 4, Brussels, 🇧🇪
 
