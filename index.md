@@ -1,6 +1,5 @@
 ---
 author: "Anca Dumitrache"
-date: "`r Sys.Date()`"
 output:
     html_document:
       css: "academicons-1.8.6/css/academicons.css"
