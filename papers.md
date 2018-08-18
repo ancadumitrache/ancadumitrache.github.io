@@ -1,3 +1,12 @@
+---
+author: "Anca Dumitrache"
+date: "`r Sys.Date()`"
+output:
+    html_document:
+      css: "academicons-1.8.6/css/academicons.css"
+---
+
+
 <script src="https://use.fontawesome.com/4b6dfd67d9.js"></script>
 
 ### [Home](./)  &nbsp; &#10209; &nbsp;  [Papers](papers)  &nbsp; &#10209; &nbsp;  [CV](cv)
