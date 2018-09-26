@@ -7,13 +7,13 @@ output:
 
 <script src="https://use.fontawesome.com/4b6dfd67d9.js"></script>
 
-### Anca Dumitrache &nbsp; &#10209; &nbsp; [Home](./)  &nbsp; &#10209; &nbsp;  [Papers](papers)  &nbsp; &#10209; &nbsp;  [CV](cv)
+#### [Anca Dumitrache](./) &nbsp; : &nbsp; [papers](papers)  &nbsp; &#10209; &nbsp;  [cv](cv)
 
 ***
 
 <img src="anca.jpg" width="300" style="float: right; margin-left: 80px; margin-bottom: 20px; margin-top: 20px" />
 
-### Education
+#### Education
 
 **Vrije Universiteit Amsterdam**, Netherlands - 11/2013 to present
 
@@ -36,7 +36,12 @@ output:
 
 ***
 
-### Research Experience
+#### Research Experience
+
+**Center for Advanced Studies, IBM**, Amsterdam, Netherlands - 02/2013 to present
+
+* *Research scientist*
+* Implemented the CrowdTruth project (collecting gold standard data for the training, evaluation of machine learning systems) in the context of IBM Watson powered business solutions. Trained and evaluated question answering models from the IBM Bluemix stack for applications in the medical field, tourism and cultural heritage.
 
 **Google Research**, New York, USA - 06/2016 to 09/2016
 
@@ -51,14 +56,6 @@ output:
 * *Project:* Medical Relation Extraction with Crowdsourcing
 * *Supervisor:* Prof. Chris Welty
 * Trained and evaluated a model for relation extraction from sentences in the medical domain, showing that models trained with crowdsourcing annotations perform as well as those trained with expert annotations. Implemented in Java.
-
-
-**Center for Advanced Studies, IBM**, Amsterdam, Netherlands - 02/2013 to 08/2013
-
-* *MSc thesis research intern*
-* *Project:* Dr. Detective – Making Information Extraction Playful
-* *Supervisors:* Prof. Lora Aroyo, Robert-Jan Sips, Prof. Chris Welty
-* Designed, developed, and evaluated a gamified Web application targeted at people in the medical field, for the purpose of collecting named entities from medical text. Implemented in HTML, Javascript and PHP.
 
 **Network Institute, Vrije Universiteit Amsterdam**, Netherlands - 10/2012 to 08/2013
 
@@ -97,7 +94,7 @@ Historical Buildings
 
 ***
 
-### Other Work Experience
+#### Other Work Experience
 
 **Vrije Universiteit Amsterdam**, Netherlands - 09/2014 to present
 
@@ -118,7 +115,7 @@ Historical Buildings
 
 ***
 
-### Awards and Scholarships
+#### Awards and Scholarships
 
 * *Best Paper Award*, Linked Data for Information Extraction (LD4IE) Workshop, International Semantic Web Conference (ISWC), 2015.
 * *IBM PhD Fellowship* awards program, IBM, Netherlands, 2013 – 2016.
@@ -127,13 +124,13 @@ Historical Buildings
 
 ***
 
-### Technical Skills
+#### Technical Skills
 
 Python (Tensorflow, SciKit, Matplotlib, Jupyter Notebooks), R, Java, HTML, PHP, JavaScript, C++.
 
 ***
 
-### Other Education
+#### Other Education
 
 * Deep Learn summer school on deep learning. Bilbao, Spain. July 2017.
 * LxMLS summer school on natural language processing. Lisbon, Portugal. July 2015.
@@ -141,7 +138,7 @@ Python (Tensorflow, SciKit, Matplotlib, Jupyter Notebooks), R, Java, HTML, PHP, 
 
 ***
 
-### Reviewer for
+#### Reviewer for
 
 * Semantics, 2017.
 * American Medical Informatis Association (AMIA), 2016. 

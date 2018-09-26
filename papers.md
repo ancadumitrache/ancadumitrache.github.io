@@ -8,7 +8,7 @@ output:
 
 <script src="https://use.fontawesome.com/4b6dfd67d9.js"></script>
 
-### Anca Dumitrache &nbsp; &#10209; &nbsp; [Home](./)  &nbsp; &#10209; &nbsp;  [Papers](papers)  &nbsp; &#10209; &nbsp;  [CV](cv)
+#### [Anca Dumitrache](./) &nbsp; : &nbsp; [papers](papers)  &nbsp; &#10209; &nbsp;  [cv](cv)
 
 ***
 
@@ -16,18 +16,18 @@ output:
 
 #### 2018
 
+* Anca Dumitrache, Lora Aroyo and Chris Welty: **[ Crowdsourcing Semantic Label Propagation in Relation Classification](https://arxiv.org/abs/1809.00537)**. [FeVeR](http://fever.ai/) workshop at [EMNLP 2018](http://emnlp2018.org/) (in publication). **[Dataset](https://github.com/CrowdTruth/Open-Domain-Relation-Extraction)**
 * Anca Dumitrache, Lora Aroyo and Chris Welty: **[Capturing and Interpreting Ambiguity in Crowdsourcing Frame Disambiguation](https://arxiv.org/abs/1805.00270)**. [HCOMP 2018](https://www.humancomputation.com/2018/). **[Dataset](https://github.com/CrowdTruth/FrameDisambiguation)** | **[Slides](http://ancad.ro/presentations/HCOMP-2018-slides.pdf)**
-* Anca Dumitrache, Lora Aroyo and Chris Welty: **[False Positive and Cross-relation Signals in Distant Supervision Data](http://crowdtruth.org/wp-content/uploads/2018/05/collint-2018-false.pdf)**. [Collective Intelligence 2018](http://ci.acm.org/2018/).
 * Anca Dumitrache, Lora Aroyo and Chris Welty: **[Metrics for Capturing Ambiguity in Crowdsourcing by Interlinking Workers, Annotations and Input Data](http://crowdtruth.org/wp-content/uploads/2018/07/metrics-capturing-ambiguity.pdf)**. [SAD](https://sadworkshop.wordpress.com/) workshop at [HCOMP 2018](https://www.humancomputation.com/2018/). **[Code](https://github.com/CrowdTruth/CrowdTruth-core)** | **[Slides](http://ancad.ro/presentations/SAD-2018-slides.pdf)** | **[Poster](http://ancad.ro/presentations/SAD-2018-poster.png)**
+* Anca Dumitrache, Lora Aroyo and Chris Welty: **[Crowdsourcing Ground Truth for Medical Relation Extraction](https://arxiv.org/abs/1701.02185)**. [ACM TiiS Special Issue on Human-Centered Machine Learning](http://hcml2016.goldsmithsdigital.com/acm-tiis-special-issue/) 8 (2), 12.
 
 
 #### 2017
 
 * Anca Dumitrache, Lora Aroyo and Chris Welty: **[False Positive and Cross-relation Signals in Distant Supervision Data](https://arxiv.org/abs/1711.05186)**. [AKBC](http://www.akbc.ws/) Workshop at [NIPS 2017](http://nips.cc/).
-* Anca Dumitrache, Lora Aroyo and Chris Welty: **[Crowdsourcing Ground Truth for Medical Relation Extraction](https://arxiv.org/abs/1701.02185)**. [ACM TiiS Special Issue on Human-Centered Machine Learning](http://hcml2016.goldsmithsdigital.com/acm-tiis-special-issue/) (in publication).
 * Anca Dumitrache, Oana Inel, Benjamin Timmermans and Lora Aroyo: **[Crowdsourcing Ambiguity-Aware Ground Truth](http://crowdtruth.org/wp-content/uploads/2017/03/collint17-crowdtruth-maj.pdf)**. [Collective Intelligence 2017](http://collectiveintelligenceconference.org/).
 * Anca Dumitrache, Lora Aroyo and Chris Welty: **[Disagreement in Crowdsourcing and Active Learning for Better Distant Supervision Quality](http://crowdtruth.org/wp-content/uploads/2017/03/collint17-open-domain.pdf)**. [Collective Intelligence 2017](http://collectiveintelligenceconference.org/).
-* Anca Dumitrache, Oana Inel, Benjamin Timmermans, Carlos Ortiz, Robert-Jan Sips, Lora Aroyo, Chris Welty: **[Empirical Methodology for Crowdsourcing Ground Truth](http://www.semantic-web-journal.net/system/files/swj1569.pdf)**. [Semantic Web Journal Special Issue on Human Computation and Crowdsourcing (HC&C) in the Context of the Semantic Web](http://www.semantic-web-journal.net/system/files/swj1569.pdf) (in review).
+* Anca Dumitrache, Oana Inel, Benjamin Timmermans, Carlos Ortiz, Robert-Jan Sips, Lora Aroyo, Chris Welty: **[Empirical Methodology for Crowdsourcing Ground Truth](http://www.semantic-web-journal.net/system/files/swj1569.pdf)**. [Semantic Web Journal Special Issue on Human Computation and Crowdsourcing (HC&C) in the Context of the Semantic Web](http://www.semantic-web-journal.net/system/files/swj1569.pdf) (in publication).
 
 #### 2016
 
@@ -58,7 +58,7 @@ output:
 
 #### 2010
 
-* Anca Dumitrache, Christoph Lange, Michael Kohlhase, Nils Aschenbeck: **[Prototyping a Browser for a Listed Buildings Database⋆ with Semantic MediaWiki](https://pdfs.semanticscholar.org/627e/615d6a97262458eac4aed4f32213cba380a1.pdf)**. [Semantic Wikis](http://data.semanticweb.org/workshop/semwiki/2010/html) Workshop at [ESWC 2010](http://www.eswc2010.org/).
+* Anca Dumitrache, Christoph Lange, Michael Kohlhase, Nils Aschenbeck: **[Prototyping a Browser for a Listed Buildings Database with Semantic MediaWiki](https://pdfs.semanticscholar.org/627e/615d6a97262458eac4aed4f32213cba380a1.pdf)**. [Semantic Wikis](http://data.semanticweb.org/workshop/semwiki/2010/html) Workshop at [ESWC 2010](http://www.eswc2010.org/).
 
 ***
 
