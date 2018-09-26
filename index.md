@@ -29,7 +29,7 @@ Also find me at:
 
 ####Latest News
 
-* Our work on [semi-supervised relation classification from sentences](https://arxiv.org/abs/1701.02185) was accepted for publication at the [FeVeR](http://fever.ai/) workshop @ [EMNLP 2018](http://emnlp2018.org/). [```paper```](https://arxiv.org/abs/1701.02185) | [```dataset```](https://github.com/CrowdTruth/Open-Domain-Relation-Extraction)
+* Our work on [semi-supervised relation classification from sentences](https://arxiv.org/abs/1809.00537) was accepted for publication at the [FEVER](http://fever.ai/) workshop @ [EMNLP 2018](http://emnlp2018.org/). [```paper```](https://arxiv.org/abs/1809.00537) | [```dataset```](https://github.com/CrowdTruth/Open-Domain-Relation-Extraction)
 * Our work on [crowdsourcing medical relation extraction](https://arxiv.org/abs/1701.02185) was mentioned in this [article](https://medium.com/acm-tiis/pay-attention-to-the-man-behind-the-curtain-dc4971419239) about the latest ACM TiiS issue on human-centered machine learning.
 * I presented our paper on frame disambiguation using CrowdTruth at [HCOMP 2018](https://www.humancomputation.com/2018/). [```paper```](https://arxiv.org/abs/1805.00270) | [```dataset```](https://github.com/CrowdTruth/FrameDisambiguation) | [```slides```](http://ancad.ro/presentations/HCOMP-2018-slides.pdf)
 * We discussed the new CrowdTruth metrics in the [SAD workshop](https://sadworkshop.wordpress.com/) @ [HCOMP 2018](https://www.humancomputation.com/2018/). [```paper```](http://crowdtruth.org/wp-content/uploads/2018/07/metrics-capturing-ambiguity.pdf) | [```code```](https://github.com/CrowdTruth/CrowdTruth-core) | [```slides```](http://ancad.ro/presentations/SAD-2018-slides.pdf) | [```poster```](http://ancad.ro/presentations/SAD-2018-poster.png)
