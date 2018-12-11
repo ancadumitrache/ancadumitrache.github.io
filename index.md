@@ -15,7 +15,7 @@ output:
 
 I am **Anca Dumitrache**, a PhD student in the [User-Centric Data Science](http://ucds.cs.vu.nl/) group at [Vrije Universiteit Amsterdam](http://few.vu.nl/).
 
-For the past 4 years I've been involved in the [CrowdTruth](http://crowdtruth.org/) project, where we look into how to capture and interpret inter-annotator disagreement in *crowdsourcing*. I am investigating how to use this disagreement to get better training data for *natural language processing* models. My supervisors are [Lora Aroyo](https://loraaroyo.wordpress.com/) and [Chris Welty](https://research.google.com/pubs/104789.html).
+For the past 5 years I've been involved in the [CrowdTruth](http://crowdtruth.org/) project, where we look into how to capture and interpret inter-annotator disagreement in *crowdsourcing*. I am investigating how to use this disagreement to get better training data for *natural language processing* models. My supervisors are [Lora Aroyo](https://loraaroyo.wordpress.com/) and [Chris Welty](https://research.google.com/pubs/104789.html).
 
 Other interests I have include *machine learning*, *Semantic Web*, *open data* and *data science* in general. My programming languages of choice are *R* and *Python* (particularly the scientific Python stack). 
 
@@ -35,12 +35,6 @@ Also find me at:
 * I presented our paper on frame disambiguation using CrowdTruth at [HCOMP 2018](https://www.humancomputation.com/2018/). [```paper```](https://arxiv.org/abs/1805.00270) | [```dataset```](https://github.com/CrowdTruth/FrameDisambiguation) | [```slides```](http://ancad.ro/presentations/HCOMP-2018-slides.pdf)
 * We discussed the new CrowdTruth metrics in the [SAD workshop](https://sadworkshop.wordpress.com/) @ [HCOMP 2018](https://www.humancomputation.com/2018/). [```paper```](http://crowdtruth.org/wp-content/uploads/2018/07/metrics-capturing-ambiguity.pdf) | [```code```](https://github.com/CrowdTruth/CrowdTruth-core) | [```slides```](http://ancad.ro/presentations/SAD-2018-slides.pdf) | [```poster```](http://ancad.ro/presentations/SAD-2018-poster.png)
 * [Figure Eight](https://www.figure-eight.com/) re-published our dataset and task template for [medical relation extraction from sentences](https://www.figure-eight.com/dataset/medical-sentence-summary-and-relation-extraction/) as part of their series of highly curated crowdsourced datasets.
-
-***
-
-####Planned Travel
-
-* [EMNLP 2018](http://emnlp2018.org/): October 31 - November 4, Brussels, 🇧🇪
 
 ***
 
