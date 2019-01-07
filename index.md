@@ -13,9 +13,9 @@ output:
 
 <img src="anca.jpg" width="300" style="float: right; margin-left: 80px; margin-bottom: 20px; margin-top: 20px" />
 
-I am **Anca Dumitrache**, a PhD student in the [User-Centric Data Science](http://ucds.cs.vu.nl/) group at [Vrije Universiteit Amsterdam](http://few.vu.nl/).
+I am **Anca Dumitrache**, a Senior Data Scientist at [FD Mediagroep](https://fdmg.nl/en/home-2/), working on a [Google DNI project](https://newsinitiative.withgoogle.com/dnifund/dni-projects/tldr-personalized-summary-your-news-round-4/) on personalized newsfeeds and automatic summarization.
 
-For the past 5 years I've been involved in the [CrowdTruth](http://crowdtruth.org/) project, where we look into how to capture and interpret inter-annotator disagreement in *crowdsourcing*. I am investigating how to use this disagreement to get better training data for *natural language processing* models. My supervisors are [Lora Aroyo](https://loraaroyo.wordpress.com/) and [Chris Welty](https://research.google.com/pubs/104789.html).
+I did my PhD student in the [User-Centric Data Science](http://ucds.cs.vu.nl/) group at [Vrije Universiteit Amsterdam](http://few.vu.nl/), where I studied how to capture and interpret inter-annotator disagreement in *crowdsourcing*, and how to use this disagreement to get better training data for *natural language processing* models.
 
 Other interests I have include *machine learning*, *Semantic Web*, *open data* and *data science* in general. My programming languages of choice are *R* and *Python* (particularly the scientific Python stack). 
 
@@ -27,14 +27,14 @@ Also find me at:
 
 ***
 
-####Latest News
+#### Latest News
 
+* **I started my new job as Data Scientist @ FD Mediagroep** 🎉
 * We organized the first [CrowdTruth tutorial](http://crowdtruth.org/tutorial/) at [ISWC 2018](http://iswc2018.semanticweb.org/).
 * Our work on [semi-supervised relation classification from sentences](https://arxiv.org/abs/1809.00537) was accepted for publication at the [FEVER](http://fever.ai/) workshop @ [EMNLP 2018](http://emnlp2018.org/). [```paper```](https://arxiv.org/abs/1809.00537) | [```dataset```](https://github.com/CrowdTruth/Open-Domain-Relation-Extraction) | [```poster```](http://ancad.ro/presentations/EMNLP-2018-poster.pdf)
 * Our work on [crowdsourcing medical relation extraction](https://arxiv.org/abs/1701.02185) was mentioned in this [article](https://medium.com/acm-tiis/pay-attention-to-the-man-behind-the-curtain-dc4971419239) about the latest ACM TiiS issue on human-centered machine learning.
 * I presented our paper on frame disambiguation using CrowdTruth at [HCOMP 2018](https://www.humancomputation.com/2018/). [```paper```](https://arxiv.org/abs/1805.00270) | [```dataset```](https://github.com/CrowdTruth/FrameDisambiguation) | [```slides```](http://ancad.ro/presentations/HCOMP-2018-slides.pdf)
 * We discussed the new CrowdTruth metrics in the [SAD workshop](https://sadworkshop.wordpress.com/) @ [HCOMP 2018](https://www.humancomputation.com/2018/). [```paper```](http://crowdtruth.org/wp-content/uploads/2018/07/metrics-capturing-ambiguity.pdf) | [```code```](https://github.com/CrowdTruth/CrowdTruth-core) | [```slides```](http://ancad.ro/presentations/SAD-2018-slides.pdf) | [```poster```](http://ancad.ro/presentations/SAD-2018-poster.png)
-* [Figure Eight](https://www.figure-eight.com/) re-published our dataset and task template for [medical relation extraction from sentences](https://www.figure-eight.com/dataset/medical-sentence-summary-and-relation-extraction/) as part of their series of highly curated crowdsourced datasets.
 
 ***
 
