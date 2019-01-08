@@ -29,7 +29,7 @@ Also find me at:
 
 #### Latest News
 
-* **I started my new job as Data Scientist @ FD Mediagroep** 🎉
+* **I started my new job as Data Scientist @ [FD Mediagroep](https://fdmg.nl/en/home-2)** 🎉
 * We organized the first [CrowdTruth tutorial](http://crowdtruth.org/tutorial/) at [ISWC 2018](http://iswc2018.semanticweb.org/).
 * Our work on [semi-supervised relation classification from sentences](https://arxiv.org/abs/1809.00537) was accepted for publication at the [FEVER](http://fever.ai/) workshop @ [EMNLP 2018](http://emnlp2018.org/). [```paper```](https://arxiv.org/abs/1809.00537) | [```dataset```](https://github.com/CrowdTruth/Open-Domain-Relation-Extraction) | [```poster```](http://ancad.ro/presentations/EMNLP-2018-poster.pdf)
 * Our work on [crowdsourcing medical relation extraction](https://arxiv.org/abs/1701.02185) was mentioned in this [article](https://medium.com/acm-tiis/pay-attention-to-the-man-behind-the-curtain-dc4971419239) about the latest ACM TiiS issue on human-centered machine learning.
