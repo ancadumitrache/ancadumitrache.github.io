@@ -15,7 +15,7 @@ output:
 
 I am **Anca Dumitrache**, a Senior Data Scientist at [FD Mediagroep](https://fdmg.nl/en/home-2/), working on a [Google DNI project](https://newsinitiative.withgoogle.com/dnifund/dni-projects/tldr-personalized-summary-your-news-round-4/) on personalized newsfeeds and automatic summarization.
 
-I did my PhD in the [User-Centric Data Science](http://ucds.cs.vu.nl/) group at [Vrije Universiteit Amsterdam](http://few.vu.nl/), where I studied how to capture and interpret inter-annotator disagreement in *crowdsourcing*, and how to use this disagreement to get better training data for *natural language processing* models.
+I did my PhD in the [User-Centric Data Science](http://ucds.cs.vu.nl/) group at [Vrije Universiteit Amsterdam](http://few.vu.nl/), where I was part of the [CrowdTruth](http://crowdtruth.org/) project. I studied how to capture and interpret inter-annotator disagreement in *crowdsourcing*, and how to use this disagreement to get better training data for *natural language processing* models.
 
 Other interests I have include *machine learning*, *Semantic Web*, *open data* and *data science* in general. My programming languages of choice are *R* and *Python* (particularly the scientific Python stack). 
 
