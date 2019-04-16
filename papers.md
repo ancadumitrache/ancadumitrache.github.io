@@ -16,7 +16,7 @@ output:
 
 #### 2019
 
-* Anca Dumitrache, Lora Aroyo and Chris Welty: **A Crowdsourced Frame Disambiguation Corpus with Ambiguity**. [NAACL 2019](https://naacl2019.org/) (in publication).
+* Anca Dumitrache, Lora Aroyo and Chris Welty: **[A Crowdsourced Frame Disambiguation Corpus with Ambiguity](https://arxiv.org/abs/1904.06101)**. [NAACL 2019](https://naacl2019.org/) (in publication).
 
 #### 2018
 
