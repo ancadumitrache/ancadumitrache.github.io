@@ -29,7 +29,7 @@ Also find me at:
 
 #### Latest News
 
-* Our [crowdsource corpus on frame disambiguation with ambiguity](https://arxiv.org/abs/1904.06101) has been presented at [NAACL 2019](https://naacl2019.org/). [```paper```](https://arxiv.org/abs/1904.06101) | [```dataset```](https://github.com/CrowdTruth/FrameDisambiguation) | [```slides```](http://ancad.ro/presentations/NAACL-2019-slides.pdf)
+* Our [crowdsourced corpus on frame disambiguation with ambiguity](https://arxiv.org/abs/1904.06101) has been presented at [NAACL 2019](https://naacl2019.org/). [```paper```](https://arxiv.org/abs/1904.06101) | [```dataset```](https://github.com/CrowdTruth/FrameDisambiguation) | [```slides```](http://ancad.ro/presentations/NAACL-2019-slides.pdf)
 * We organized the second edition of the [CrowdTruth tutorial](http://crowdtruth.org/tutorial/), as well as the [Subjectivity, Ambiguity and Disagreement (SAD) in Crowdsourcing](https://sadworkshop.wordpress.com/) at the [Web Conference 2019](https://www2019.thewebconf.org/).
 * We presented our paper on [crowdsourcing medical relation extraction](https://arxiv.org/abs/1701.02185) at [ACM IUI 2019](https://iui.acm.org/2019/), as part of the ACM TiiS journal track. [```paper```](https://arxiv.org/abs/1701.02185) | [```dataset```](https://github.com/CrowdTruth/Medical-Relation-Extraction) | [```slides```](http://ancad.ro/presentations/IUI-2019-MedicalRelEx.pdf)
 * **I started my new job as Data Scientist @ [FD Mediagroep](https://fdmg.nl/en/home-2)** 🎉
