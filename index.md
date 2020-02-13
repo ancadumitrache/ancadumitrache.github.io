@@ -13,7 +13,7 @@ output:
 
 <img src="anca.jpg" width="300" style="float: right; margin-left: 80px; margin-bottom: 20px; margin-top: 20px" />
 
-I am **Anca Dumitrache**, a Data Scientist in the AI team at [Talpa Network](https://talpanetwork.com/), on personalized recommendations in media.
+I am **Anca Dumitrache**, a Data Scientist in the AI team at [Talpa Network](https://talpanetwork.com/), working on personalized recommendations in media.
 
 I did my PhD in the [User-Centric Data Science](http://ucds.cs.vu.nl/) group at [Vrije Universiteit Amsterdam](http://few.vu.nl/), where I was part of the [CrowdTruth](http://crowdtruth.org/) project. I studied how to capture and interpret inter-annotator disagreement in *crowdsourcing*, and how to use this disagreement to get better training data for *natural language processing* models.
 
