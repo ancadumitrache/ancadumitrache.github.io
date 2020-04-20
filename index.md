@@ -13,7 +13,7 @@ output:
 
 <img src="anca.jpg" width="300" style="float: right; margin-left: 80px; margin-bottom: 20px; margin-top: 20px" />
 
-I am **Anca Dumitrache**, a Senior Data Scientist at [FD Mediagroep](https://fdmg.nl/en/home-2/), working on a [Google DNI project](https://newsinitiative.withgoogle.com/dnifund/dni-projects/tldr-personalized-summary-your-news-round-4/) on personalized newsfeeds and automatic summarization.
+I am **Anca Dumitrache**, a Data Scientist in the AI team at [Talpa Network](https://talpanetwork.com/), working on personalized recommendations in media.
 
 I did my PhD in the [User-Centric Data Science](http://ucds.cs.vu.nl/) group at [Vrije Universiteit Amsterdam](http://few.vu.nl/), where I was part of the [CrowdTruth](http://crowdtruth.org/) project. I studied how to capture and interpret inter-annotator disagreement in *crowdsourcing*, and how to use this disagreement to get better training data for *natural language processing* models.
 
@@ -29,13 +29,12 @@ Also find me at:
 
 #### Latest News
 
+* I started a new job as a Data Scientist in the AI team at [Talpa Network](https://talpanetwork.com/).
+* I got to talk about the news article recommender we built at [FD Mediagroep](https://fdmg.nl/en/home-2) in the [RecSysNL meetup](https://www.meetup.com/recsysnl/events/266070107/), and then at [PyData Eindhoven](https://pydata.org/eindhoven2019/). [```video```](https://youtu.be/kI6VbkrIbpg) | [```slides```](http://ancad.ro/presentations/PyDataEindhoven-2019-RecSys.pdf)
 * 💥 On October 10 I will defend my PhD thesis, titled **[Truth in Disagreement: Crowdsourcing Labeled Data for Natural Language Processing](http://ancad.ro/phd.pdf)**. The defence will take place at 11:45 in the Aula of the [Vrije Universiteit Amsterdam](https://www.vu.nl/). 💥
 * Our [crowdsourced corpus on frame disambiguation with ambiguity](https://arxiv.org/abs/1904.06101) has been presented at [NAACL 2019](https://naacl2019.org/). [```paper```](https://arxiv.org/abs/1904.06101) | [```dataset```](https://github.com/CrowdTruth/FrameDisambiguation) | [```slides```](http://ancad.ro/presentations/NAACL-2019-slides.pdf)
 * We organized the second edition of the [CrowdTruth tutorial](http://crowdtruth.org/tutorial/), as well as the [Subjectivity, Ambiguity and Disagreement (SAD) in Crowdsourcing](https://sadworkshop.wordpress.com/) at the [Web Conference 2019](https://www2019.thewebconf.org/).
 * We presented our paper on [crowdsourcing medical relation extraction](https://arxiv.org/abs/1701.02185) at [ACM IUI 2019](https://iui.acm.org/2019/), as part of the ACM TiiS journal track. [```paper```](https://arxiv.org/abs/1701.02185) | [```dataset```](https://github.com/CrowdTruth/Medical-Relation-Extraction) | [```slides```](http://ancad.ro/presentations/IUI-2019-MedicalRelEx.pdf)
-* **I started my new job as Data Scientist @ [FD Mediagroep](https://fdmg.nl/en/home-2)** 🎉
-* We organized the first [CrowdTruth tutorial](http://crowdtruth.org/iswc-2018-tutorial/) at [ISWC 2018](http://iswc2018.semanticweb.org/).
-* Our work on [semi-supervised relation classification from sentences](https://arxiv.org/abs/1809.00537) was accepted for publication at the [FEVER](http://fever.ai/) workshop @ [EMNLP 2018](http://emnlp2018.org/). [```paper```](https://arxiv.org/abs/1809.00537) | [```dataset```](https://github.com/CrowdTruth/Open-Domain-Relation-Extraction) | [```poster```](http://ancad.ro/presentations/EMNLP-2018-poster.pdf)
 
 ***
 

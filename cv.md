@@ -13,32 +13,21 @@ output:
 
 <img src="anca.jpg" width="300" style="float: right; margin-left: 80px; margin-bottom: 20px; margin-top: 20px" />
 
-#### Education
 
-**Vrije Universiteit Amsterdam**, Netherlands - 11/2013 to present
+#### Work Experience
 
-  * *PhD, User-Centric Data Science research group*
-  * *Project:* CrowdTruth
-  * *Supervisors:* Prof. Lora Aroyo, Prof. Chris Welty
-  * Capturing and interpreting inter-annotator disagreement in crowdsourcing, in order to build better ground truth data for training and evaluating natural language processing models
-  * Expected graduation date: November 2018
+**Talpa Network**, Amsterdam, Netherlands - 02/2020 to present
 
-**Vrije Universiteit Amsterdam**, Netherlands - 09/2011 to 08/2013
+* *Data scientist*
+* Working on personalized recommendations in media, as part of the newly formed AI team.
 
-  * *MSc, Artificial Intelligence*
-  * *Specialization:* Knowledge Technology and Intelligent Internet Applications
-  * *GPA:* 8.29 (1-10 scale), graduated *cum laude*
 
-**Jacobs University Bremen**, Germany - 09/2008 to 06/2011
+**FD Mediagroep**, Amsterdam, Netherlands - 01/2019 to 12/2019
 
-  * *BSc, Computer Science*
-  * *GPA:* 1.48 (5-1 scale)
+* *Data scientist*
+* Worked on a [Google DNI](https://newsinitiative.withgoogle.com/dnifund/dni-projects/tldr-personalized-summary-your-news-round-4/) project on personalized newsfeeds. Developed a content-based recommender system for news in the financial domain, using gradient boosting decision trees with features from the user profile and article representation. Optimized the system in production with alpha and A/B tests. Implemented in Python, using a data pipeline in Amazon Web Services.
 
-***
-
-#### Research Experience
-
-**Center for Advanced Studies, IBM**, Amsterdam, Netherlands - 02/2013 to present
+**Center for Advanced Studies, IBM**, Amsterdam, Netherlands - 02/2013 to 12/2018
 
 * *Research scientist*
 * Implemented the CrowdTruth project (collecting gold standard data for the training, evaluation of machine learning systems) in the context of IBM Watson powered business solutions. Trained and evaluated question answering models from the IBM Bluemix stack for applications in the medical field, tourism and cultural heritage.
@@ -64,12 +53,19 @@ output:
 * *Supervisors:* Dr. Paul Groth, Prof. Peter van den Besselaar
 * Analyzed online networks of scholarly publications for relevant indicators of researcher talent. Implementation done in R.
 
+**Drupal** - 05/2012 to 08/2012
+
+* *Google Summer of Code intern*
+* *Project:* Extend Microdata Support to Contrib Field Types
+* *Supervisor:* Lin Clark
+* Developed and tested patches for microdata support for Drupal user-contributed modules. Implementation done in PHP.
+
 **Knowledge Representation and Reasoning Group, Vrije Universiteit Amsterdam**, Netherlands - 10/2011 to 08/2012
 
 * *Student assistant*
 * *Project:* OpenPHACTS
 * *Supervisor:* Dr. Paul Groth
-* Developed an API based on Sesame Sail for interpreting SPARQL queries over datasets stored in HBase. Implemented in Java. 
+* Developed an API based on Sesame Sail for interpreting SPARQL queries over datasets stored in HBase. Implemented in Java.
 
 **Web-based Systems Group, Free University Berlin**, Germany - 07/2011 to 08/2011
 
@@ -92,28 +88,36 @@ Historical Buildings
 * *Supervisors:* Priv.-Doz. Dr. Axel Polleres, Dr. Alessandra Mileo
 * Developed an XML parser mapping XMPP stanzas to RDF, for the purpose of creating a server component for Jabber. Implemented in C/C++.
 
-***
-
-#### Other Work Experience
-
-**Vrije Universiteit Amsterdam**, Netherlands - 09/2014 to present
-
-* *Teaching assistant*
-* Held lectures, assisted students during laboratory sessions, graded homework, held practice tutorials. Involved in the following courses: Watson Innovation, Text Mining for Digital Humanities, Knowledge and Media, The Social Web.
-
-**Drupal** - 05/2012 to 08/2012
-
-* *Google Summer of Code intern*
-* *Project:* Extend Microdata Support to Contrib Field Types
-* *Supervisor:* Lin Clark
-* Developed and tested patches for microdata support for Drupal user-contributed modules. Implementation done in PHP.
-
 **Jacobs University Bremen**, Germany - 09/2009 to 06/2011
 
 * *Teaching assistant*
 * Assisted students during the laboratory, graded homework, held practice tutorials. Involved in the following courses: Natural Science Lab Unit Computer Science I (C-Programming), Programming in C++, Operating Systems Lab, Text and Digital Media University Study Course.
 
 ***
+
+#### Education
+
+**Vrije Universiteit Amsterdam**, Netherlands - 11/2013 to 11/2018
+
+  * *PhD, User-Centric Data Science research group*
+  * *Project:* CrowdTruth
+  * *Supervisors:* Prof. Lora Aroyo, Prof. Chris Welty
+  * Worked at capturing and interpreting inter-annotator disagreement in crowdsourcing, in order to build better ground truth data for training and evaluating natural language processing models.
+  * Held lectures, assisted students during laboratory sessions, graded homework, held practice tutorials. Involved in the following courses: Watson Innovation, Text Mining for Digital Humanities, Knowledge and Media, The Social Web.
+
+**Vrije Universiteit Amsterdam**, Netherlands - 09/2011 to 08/2013
+
+  * *MSc, Artificial Intelligence*
+  * *Specialization:* Knowledge Technology and Intelligent Internet Applications
+  * *GPA:* 8.29 (1-10 scale), graduated *cum laude*
+
+**Jacobs University Bremen**, Germany - 09/2008 to 06/2011
+
+  * *BSc, Computer Science*
+  * *GPA:* 1.48 (5-1 scale)
+
+***
+
 
 #### Awards and Scholarships
 
