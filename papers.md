@@ -8,13 +8,14 @@ output:
 
 <script src="https://use.fontawesome.com/4b6dfd67d9.js"></script>
 
-#### [Anca Dumitrache](./) &nbsp; : &nbsp; [papers](papers)  &nbsp; &#10209; &nbsp;  [cv](cv)
+#### [Anca Dumitrache](./) &nbsp; : &nbsp; [cv](cv)  &nbsp; &#10209; &nbsp;  [news](news)  &nbsp; &#10209; &nbsp;  [papers](papers)
 
 ***
 
 <img src="anca.jpg" width="300" style="float: right; margin-left: 80px; margin-bottom: 20px; margin-top: 20px" />
 
 
+### Papers
 
 #### 2020
 
