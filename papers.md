@@ -14,7 +14,15 @@ output:
 
 <img src="anca.jpg" width="300" style="float: right; margin-left: 80px; margin-bottom: 20px; margin-top: 20px" />
 
+
+
+#### 2020
+
+* Feng Lu, Anca Dumitrache and David Graus: **[Beyond Optimizing for Clicks: Incorporating Editorial Values in News Recommendation](https://arxiv.org/pdf/2004.09980.pdf)**. [UMAP 2020](https://um.org/umap2020/).
+
 #### 2019
+
+* Anca Dumitrache. **[Truth in Disagreement: Crowdsourcing Labeled Data for Natural Language Processing](https://research.vu.nl/en/publications/truth-in-disagreement-crowdsourcing-labeled-data-for-natural-lang)**. PhD thesis, [Vrije Universiteit Amsterdam](http://few.vu.nl/).
 
 * Anca Dumitrache, Lora Aroyo and Chris Welty: **[A Crowdsourced Frame Disambiguation Corpus with Ambiguity](https://arxiv.org/abs/1904.06101)**. [NAACL 2019](https://naacl2019.org/). [```dataset```](https://github.com/CrowdTruth/FrameDisambiguation) | [```slides```](http://ancad.ro/presentations/NAACL-2019-slides.pdf)
 
@@ -50,8 +58,8 @@ output:
 
 #### 2013
 
-* Anca Dumitrache: **[Combining Gamification Techniques and Crowdsourcing to Create a Gold Standard for Medical Text](http://wiki.cs.vu.nl/mp/images/d/d9/AD_MScThesis.pdf)**. MSc thesis, [Vrije Universiteit Amsterdam](http://few.vu.nl/). [```game```](http://demogame1.crowdtruth.org/)
-* Anca Dumitrache, Lora Aroyo, Chris Welty, Robert-Jan Sips, Anthony Levas: **[Dr. Detective: combining gamification techniques and crowdsourcing to create a gold standard in medical text](http://ceur-ws.org/Vol-1030/paper-02.pdf)**. [CrowdSem](https://crowdsem.wordpress.com/) at [ISWC 2013](http://iswc2013.semanticweb.org/). [```game```](http://demogame1.crowdtruth.org/)
+* Anca Dumitrache: **[Combining Gamification Techniques and Crowdsourcing to Create a Gold Standard for Medical Text](http://wiki.cs.vu.nl/mp/images/d/d9/AD_MScThesis.pdf)**. MSc thesis, [Vrije Universiteit Amsterdam](http://few.vu.nl/).
+* Anca Dumitrache, Lora Aroyo, Chris Welty, Robert-Jan Sips, Anthony Levas: **[Dr. Detective: combining gamification techniques and crowdsourcing to create a gold standard in medical text](http://ceur-ws.org/Vol-1030/paper-02.pdf)**. [CrowdSem](https://crowdsem.wordpress.com/) at [ISWC 2013](http://iswc2013.semanticweb.org/).
 * Anca Dumitrache, Paul Groth, Peter van den Besselaar: **[Identifying research talent using web-centric databases](http://dl.acm.org/citation.cfm?id=2464507)**. [ACM Web Science 2013](http://www.websci13.org/). [```code```](https://github.com/pgroth/independence-indicators)
 
 #### 2011
