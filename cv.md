@@ -22,10 +22,16 @@ Download as [```PDF```](http://ancad.ro/CV.pdf)
 
 #### Work Experience
 
-**Talpa Network**, Amsterdam, Netherlands - 02/2020 to present
+**Albert Heijn**, Zaandam, Netherlands - 09/2020 to present
+
+* *Senior data scientist*
+* Modeling product similarity
+
+
+**Talpa Network**, Amsterdam, Netherlands - 02/2020 to 07/2020
 
 * *Data scientist*
-* Working on personalized recommendations in media, as part of the newly formed AI team.
+* Worked on personalized recommendations for radio stations and TV programs.
 
 
 **FD Mediagroep**, Amsterdam, Netherlands - 01/2019 to 12/2019

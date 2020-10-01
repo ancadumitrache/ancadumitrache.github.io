@@ -20,6 +20,7 @@ output:
 
 #### 2020
 
+* I started a new job as a Senior Data Scientist in the Strategy & Analytics team at [Albert Heijn](https://www.ah.nl/).
 * The work we did at [FD Mediagroep](https://fdmg.nl/en/home-2) on [incorporating editorial values in news recommendation](https://arxiv.org/pdf/2004.09980.pdf) has been accepted for publication at [UMAP 2020](https://um.org/umap2020/). [```paper```](https://arxiv.org/pdf/2004.09980.pdf)
 * I started a new job as a Data Scientist in the AI team at [Talpa Network](https://talpanetwork.com/).
 
